@@ -1,0 +1,74 @@
+{
+  "posts": [
+    {
+      "title": "How to Choose the Perfect Curtains for Your Space",
+      "slug": "how-to-choose-perfect-curtains",
+      "date": "2025-03-15T12:00:00Z",
+      "author": {
+        "name": "Pooja Shah",
+        "picture": "/authors/image.png",
+        "bio": "Interior design expert with 10+ years of experience in home decor."
+      },
+      "coverImage": "/blog/curtains.png",
+      "excerpt": "Learn how to select the ideal curtains that complement your space and enhance your interior design.",
+      "category": "guides",
+      "content": "<p>Selecting the right curtains for your space can dramatically transform the look and feel of a room...</p><h2>Consider Your Room's Purpose</h2><p>Different rooms have different needs. For instance, bedrooms typically require thicker, light-blocking curtains to ensure better sleep...</p>"
+    },
+    {
+      "title": "5 Tips for Organizing a Small Kitchen",
+      "slug": "organizing-small-kitchen-tips",
+      "date": "2025-03-10T10:00:00Z",
+      "author": {
+        "name": "Amit Patel",
+        "picture": "/authors/image.png",
+        "bio": "Professional organizer and efficiency coach."
+      },
+      "coverImage": "/blog/blinds.png",
+      "excerpt": "Discover simple and effective ways to maximize storage and functionality in a small kitchen.",
+      "category": "tips",
+      "content": "<p>Small kitchens can be a challenge, but with the right strategies, you can make the most of your limited space...</p><h2>Use Vertical Space</h2><p>Adding shelves or hooks to walls can help keep your counters clear while providing storage for items...</p>"
+    },
+    {
+      "title": "The Beginner's Guide to Minimalist Living",
+      "slug": "beginners-guide-minimalist-living",
+      "date": "2025-03-05T08:00:00Z",
+      "author": {
+        "name": "Riya Mehta",
+        "picture": "/authors/image.png",
+        "bio": "Lifestyle blogger passionate about simplicity and sustainability."
+      },
+      "coverImage": "/blog/cushion.png",
+      "excerpt": "Learn how to simplify your life and create a clutter-free home with our beginner's guide to minimalist living.",
+      "category": "lifestyle",
+      "content": "<p>Minimalism is more than just decluttering; it's about intentionally living with less...</p><h2>Start Small</h2><p>Begin by decluttering a single drawer or shelf to build momentum...</p>"
+    },
+    {
+      "title": "Top 10 Indoor Plants for Beginners",
+      "slug": "top-indoor-plants-beginners",
+      "date": "2025-03-01T09:00:00Z",
+      "author": {
+        "name": "Sara Khan",
+        "picture": "/authors/image.png",
+        "bio": "Plant enthusiast and gardening coach."
+      },
+      "coverImage": "/blog/access.png",
+      "excerpt": "Discover the best low-maintenance indoor plants perfect for those new to plant care.",
+      "category": "gardening",
+      "content": "<p>Adding greenery to your home is a great way to improve air quality and aesthetics...</p><h2>Snake Plant</h2><p>Known for its resilience, the snake plant thrives in various conditions and requires minimal care...</p>"
+    },
+    {
+      "title": "How to Design a Cozy Reading Nook",
+      "slug": "design-cozy-reading-nook",
+      "date": "2025-02-25T14:00:00Z",
+      "author": {
+        "name": "Neha Arora",
+        "picture": "/authors/image.png",
+        "bio": "Interior stylist specializing in functional and cozy spaces."
+      },
+      "coverImage": "/blog/cushion.png",
+      "excerpt": "Create the perfect corner to relax and read with our tips for designing a cozy reading nook.",
+      "category": "design",
+      "content": "<p>A cozy reading nook is the perfect place to unwind with your favorite book...</p><h2>Choose the Right Spot</h2><p>Look for a quiet corner with plenty of natural light...</p>"
+    }
+  ]
+}
