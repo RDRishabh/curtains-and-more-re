@@ -1,1 +1,25 @@
 @import "tailwindcss";
+
+@font-face {
+  font-family: "QuincyCF";
+  src: url("/fonts/Fontspring-DEMO-quincycf-regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Lovato";
+  src: url("/fonts/fonnts.com-Lovato-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@layer utilities {
+  .font-quincy {
+    font-family: "QuincyCF", serif;
+  }
+
+  .font-lovato {
+    font-family: "Lovato", serif;
+  }
+}
