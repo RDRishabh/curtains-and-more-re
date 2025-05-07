@@ -8,11 +8,11 @@ const AboutUsSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
           {/* Image Column - Added max-h constraint and object-fit properties */}
           <div className="flex items-center justify-center">
-            <div className="max-h-[600px] overflow-hidden">
+            <div className="max-h-[600px] overflow-hidden rounded-2xl">
               <img 
                 src="/png/Aboutus.png" 
                 alt="Gray Curtains" 
-                className="w-full h-auto rounded-sm shadow-md object-cover"
+                className="w-full h-auto  shadow-md object-cover "
               />
             </div>
           </div>
@@ -43,7 +43,7 @@ const AboutUsSection = () => {
             <div>
               <Link 
                 to="/our-story" 
-                className="inline-block bg-[#f0ebe2] text-gray-700 py-2 px-10 border border-[#e5dfd4]"
+                className="inline-block bg-[#f0ebe2] text-gray-700 py-2 px-10 border rounded-sm border-[#e5dfd4] hover:bg-[#e5dfd4] hover:text-gray-800 text-sm font-medium transition duration-300 ease-in-out shadow-md"
               >
                 Our Story
               </Link>

@@ -37,10 +37,10 @@ const Header = () => {
     {/* Navigation for Large Screens */}
     <nav className="mt-4 hidden lg:block">
       <ul className="flex justify-center space-x-6 md:space-x-8">
-        <li><Link to="/projects" className="text-gray-600 hover:text-gray-900 uppercase text-sm tracking-wider font-quincy">PROJECTS</Link></li>
-        <li><Link to="/our-story" className="text-gray-600 hover:text-gray-900 uppercase text-sm tracking-wider font-quincy">OUR STORY</Link></li>
-        <li><Link to="/how-we-work" className="text-gray-600 hover:text-gray-900 uppercase text-sm tracking-wider font-quincy">HOW WE WORK</Link></li>
-        <li><Link to="/blog" className="text-gray-600 hover:text-gray-900 uppercase text-sm tracking-wider font-quincy">BLOG</Link></li>
+        <li><Link to="/projects" className="text-gray-600 hover:text-gray-900 uppercase text-md tracking-wider font-quincy">PROJECTS</Link></li>
+        <li><Link to="/our-story" className="text-gray-600 hover:text-gray-900 uppercase text-md tracking-wider font-quincy">OUR STORY</Link></li>
+        <li><Link to="/how-we-work" className="text-gray-600 hover:text-gray-900 uppercase text-md tracking-wider font-quincy">HOW WE WORK</Link></li>
+        <li><Link to="/blog" className="text-gray-600 hover:text-gray-900 uppercase text-md tracking-wider font-quincy">BLOG</Link></li>
       </ul>
     </nav>
   </div>

@@ -29,7 +29,7 @@ const WhyUsSection = () => {
             <h3 className="text-xl text-gray-700 mb-3 font-quincy">Curtains</h3>
             <Link
               to="/curtains"
-              className="bg-[#a6b4c2] text-white py-2 px-6 uppercase text-sm tracking-wider hover:bg-[#93a1af] transition font-lovato"
+              className="bg-[#a6b4c2] text-white py-2 px-6 uppercase rounded-md text-sm tracking-wider hover:bg-[#bfa98c] transition font-lovato"
             >
               More Info
             </Link>
@@ -45,7 +45,7 @@ const WhyUsSection = () => {
             <h3 className="text-xl text-gray-700 mb-3 font-quincy">Blinds</h3>
             <Link
               to="/blinds"
-              className="bg-[#a6b4c2] text-white py-2 px-6 uppercase text-sm tracking-wider hover:bg-[#93a1af] transition font-lovato"
+              className="bg-[#a6b4c2] text-white py-2 px-6 uppercase rounded-md text-sm tracking-wider hover:bg-[#bfa98c] transition font-lovato"
             >
               More Info
             </Link>
@@ -61,7 +61,7 @@ const WhyUsSection = () => {
             <h3 className="text-xl text-gray-700 mb-3 font-quincy">Shutters</h3>
             <Link
               to="/shutters"
-              className="bg-[#a6b4c2] text-white py-2 px-6 uppercase text-sm tracking-wider hover:bg-[#93a1af] transition font-lovato"
+              className="bg-[#a6b4c2] text-white py-2 px-6 uppercase text-sm tracking-wider rounded-md hover:bg-[#bfa98c] transition font-lovato"
             >
               More Info
             </Link>

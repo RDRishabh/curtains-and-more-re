@@ -27,10 +27,10 @@ const StatCounter = ({ end, label }) => {
 
   return (
     <div ref={ref} className="text-center px-2 sm:px-4">
-      <div className="text-xl sm:text-2xl lg:text-3xl font-quincy text-[#bfa98c]">
+      <div className="text-3xl sm:text-4xl lg:text-5xl font-quincy text-[#bfa98c]">
         {count}
       </div>
-      <div className="text-xs sm:text-sm lg:text-base font-lovato text-[#bfa98c] mt-1">
+      <div className="text-base sm:text-2xl lg:text-2xl font-lovato text-[#bfa98c] mt-1">
         {label}
       </div>
     </div>

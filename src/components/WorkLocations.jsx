@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { GoogleMap, Marker, useJsApiLoader } from '@react-google-maps/api';
-import { MapPin } from 'lucide-react';
+import { MapPin, ExternalLink, Navigation } from 'lucide-react';
 
 const containerStyle = {
   width: '100%',
@@ -32,64 +32,92 @@ const WorkLocations = () => {
     googleMapsApiKey: "AIzaSyD7cHciPt3oHoRP9PyfSjBAEX1f36AVmoc"
   });
 
-  if (!isLoaded) return <div className="text-center p-10">Loading map...</div>;
+  const [activeLocation, setActiveLocation] = useState(null);
+
+  if (!isLoaded) return (
+    <div className="flex items-center justify-center h-64 bg-gray-100 rounded-lg">
+      <div className="flex flex-col items-center">
+        <div className="w-16 h-16 border-4 border-blue-500 border-t-transparent rounded-full animate-spin"></div>
+        <p className="mt-4 text-lg font-medium text-gray-700">Loading map...</p>
+      </div>
+    </div>
+  );
 
   return (
-    <section className="py-16 px-4 md:px-10 bg-white flex lg:flex-row items-center flex-col">
-        {/* Interactive Google Map */}
-        <div className="w-full lg:w-[50%] h-[500px] mb-12 lg:mb-0 rounded-lg overflow-hidden shadow-md">
-          <GoogleMap
-            mapContainerStyle={containerStyle}
-            center={mapCenter}
-            zoom={11}
-            options={{ disableDefaultUI: true }}
-          >
-            {locations.map((location, index) => (
-              <Marker
-                key={index}
-                position={{ lat: location.lat, lng: location.lng }}
-                title={location.name}
-              />
-            ))}
-          </GoogleMap>
+    <section className="py-16 px-4 md:px-8 lg:px-12 bg-gray-50">
+      <div className="max-w-7xl mx-auto">
+        <div className="mb-10 text-center">
+          <h2 className="text-4xl font-bold text-gray-800 mb-3">Our Service Locations</h2>
+          <p className="text-lg text-gray-600 max-w-2xl mx-auto">We provide services across North London and surrounding areas. Find your nearest location below.</p>
         </div>
-      <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl font-bold mb-8 font-quincy">Work Locations</h2>
 
-        <div className="mb-10 grid grid-cols-1 md:grid-cols-2 gap-4 font-lovato">
-          <div>
-            <h3 className="text-xl font-semibold mb-2 font-quincy">Service Areas:</h3>
-            <ul className="list-disc list-inside text-gray-700">
-              {serviceAreas.map((pair, idx) => (
-                <React.Fragment key={idx}>
-                  <div className="flex items-center">
-                    <span className="mr-2 text-gray-900">•</span>
-                    <span className="text-gray-800">{pair[0]}</span>
+        <div className="flex flex-col lg:flex-row gap-8">
+          {/* Interactive Google Map */}
+          <div className="w-full lg:w-3/5">
+            <div className="bg-white p-4 rounded-xl shadow-lg h-full">
+              <GoogleMap
+                mapContainerStyle={containerStyle}
+                center={mapCenter}
+                zoom={10}
+                options={{ 
+                  disableDefaultUI: false,
+                  zoomControl: true,
+                  streetViewControl: false,
+                  mapTypeControl: false,
+                  fullscreenControl: true,
+                  styles: [
+                    {
+                      featureType: "poi",
+                      elementType: "labels",
+                      stylers: [{ visibility: "off" }]
+                    }
+                  ]
+                }}
+              >
+                {locations.map((location, index) => (
+                  <Marker
+                    key={index}
+                    position={{ lat: location.lat, lng: location.lng }}
+                    title={location.name}
+                    onClick={() => setActiveLocation(location)}
+                    animation={window.google?.maps.Animation.DROP}
+                  />
+                ))}
+              </GoogleMap>
+              
+              {activeLocation && (
+                <div className="mt-4 p-4 bg-blue-50 rounded-lg border border-blue-200 flex items-center justify-between">
+                  <div>
+                    <h4 className="font-medium text-blue-800">{activeLocation.name}</h4>
+                    <p className="text-sm text-gray-600">Lat: {activeLocation.lat.toFixed(4)}, Lng: {activeLocation.lng.toFixed(4)}</p>
                   </div>
-                  <div className="flex items-center">
-                    <span className="mr-2 text-gray-900">•</span>
-                    <span className="text-gray-800">{pair[1]}</span>
-                  </div>
-                </React.Fragment>
-              ))}
-            </ul>
-          </div>
-          <div>
-            <h3 className="text-xl font-semibold mb-2 font-quincy">Location Addresses:</h3>
-            <ul className="text-gray-700">
-              {locations.map((location, i) => (
-                <li key={i} className="mb-1">
-                  <a
-                    href={location.link}
+                  <a 
+                    href={activeLocation.link}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-blue-600 underline"
+                    className="flex items-center gap-1 px-3 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-md transition"
                   >
-                    {location.name}
+                    <Navigation size={16} />
+                    <span>Directions</span>
                   </a>
-                </li>
-              ))}
-            </ul>
+                </div>
+              )}
+            </div>
+          </div>
+
+          {/* Service Areas Card */}
+          <div className="w-full lg:w-2/5">
+            <div className="bg-white p-6 rounded-xl shadow-lg h-full">
+              <h3 className="text-xl font-bold mb-4 text-gray-800">Service Areas</h3>
+              <div className="grid grid-cols-2 gap-x-4 gap-y-1">
+                {serviceAreas.flat().map((area, idx) => (
+                  <div key={idx} className="flex items-center py-2">
+                    <div className="w-2 h-2 rounded-full bg-blue-500 mr-2"></div>
+                    <span className="text-gray-700">{area}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
           </div>
         </div>
       </div>
