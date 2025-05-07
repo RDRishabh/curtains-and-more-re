@@ -27,7 +27,7 @@ export default function ContactForm() {
   };
 
   return (
-    <div className="w-full max-w-6xl mx-auto py-16 px-4 relative font-quincy">
+    <div className="w-full max-w-6xl mx-auto pt-16 px-4 relative font-quincy">
       {/* Decorative pendant light */}
       <div className="absolute top-0 left-1/2 transform -translate-x-1/2">
         <svg width="40" height="80" viewBox="0 0 40 80" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -46,10 +46,7 @@ export default function ContactForm() {
           <p className="text-gray-700 mb-1">Kindly.</p>
           <p className="text-gray-700">Fill the form, have a great day.</p>
           
-          {/* Decorative "contact us" text */}
-          <div className="mt-24 text-8xl font-bold text-gray-100 opacity-50 select-none hidden md:block">
-            <img src="co" alt="" />
-          </div>
+          
         </div>
         
         {/* Right section with form */}
@@ -162,9 +159,9 @@ export default function ContactForm() {
         </div>
       </div>
       
-      {/* Mobile version of decorative text */}
-      <div className="mt-8 text-6xl font-bold text-gray-100 opacity-50 select-none md:hidden text-center">
-        contact us
+      {/* Decorative "contact us" text */}
+      <div className="mt-24 text-8xl font-bold text-gray-100 opacity-50 select-none drop-shadow-lg ">
+        <img src="/png/contactus.png" alt="" />
       </div>
     </div>
   );

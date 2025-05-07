@@ -35,9 +35,9 @@ const WorkLocations = () => {
   if (!isLoaded) return <div className="text-center p-10">Loading map...</div>;
 
   return (
-    <section className="py-16 px-4 md:px-10 bg-white flex flex-row items-center">
+    <section className="py-16 px-4 md:px-10 bg-white flex lg:flex-row items-center flex-col">
         {/* Interactive Google Map */}
-        <div className="w-[50%] h-[500px] rounded-lg overflow-hidden shadow-md">
+        <div className="w-full lg:w-[50%] h-[500px] mb-12 lg:mb-0 rounded-lg overflow-hidden shadow-md">
           <GoogleMap
             mapContainerStyle={containerStyle}
             center={mapCenter}
