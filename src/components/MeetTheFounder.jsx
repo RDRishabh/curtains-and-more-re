@@ -47,7 +47,7 @@ const MeetTheFounder = () => {
 
             <p className="text-lg text-gray-700 leading-relaxed">
               With a reputation for excellence and an ever-growing portfolio of stunning transformations, Pooja and her team at 
-              Curtains & More continue to redefine interiors—one window at a time.
+              Curtains and More continue to redefine interiors—one window at a time.
             </p>
 
             <div className="mt-10 flex flex-wrap items-center gap-6">

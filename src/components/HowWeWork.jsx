@@ -6,7 +6,7 @@ const HowWeWorkSection = () => {
     {
       icon: <ClipboardList className="h-8 w-8 text-[#bfa98c]" />,
       title: "ENQUIRE",
-      description: "Enquire with us through online form or calling / emailing us."
+      description: "Enquire with us through online form or calling emailing us."
     },
     {
       icon: <MapPin className="h-8 w-8 text-[#bfa98c]" />,
@@ -31,7 +31,7 @@ const HowWeWorkSection = () => {
     {
       icon: <Truck className="h-8 w-8 text-[#bfa98c]" />,
       title: "DELIVERY",
-      description: "Finally delivering / installation of your finished products."
+      description: "Finally delivering installation of your finished products."
     }
   ];
 

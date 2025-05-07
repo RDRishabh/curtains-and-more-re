@@ -10,7 +10,7 @@ const GoogleReviewsSlider = () => {
       name: "Captain Leod",
       date: "a month ago",
       rating: 5,
-      comment: "Excellent experience with premium blinds uk, very fast installation had the job done in no time, also very friendly and professional, would recommend!"
+      comment: "Excellent experience with premium blinds uk, very fast installation had the job done in no time, also very friendly and professional, would recommend."
     },
     {
       name: "Lynette Orchard",
@@ -22,7 +22,7 @@ const GoogleReviewsSlider = () => {
       name: "Maria Ellis",
       date: "a month ago",
       rating: 5,
-      comment: "Ordered the blinds only a week to wait! Loved it, staff highly recommended!"
+      comment: "Ordered the blinds only a week to wait! Loved it, staff highly recommended."
     },
   ];
 

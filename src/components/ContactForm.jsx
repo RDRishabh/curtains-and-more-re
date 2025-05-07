@@ -42,13 +42,13 @@ export default function ContactForm() {
           <h2 className="text-4xl font-serif mb-2 text-gray-900">Have an idea</h2>
           <h3 className="text-4xl font-serif mb-6 text-gray-900">Let's discuss</h3>
           
-          <p className="text-gray-700 mb-1">Thank you for getting in touch!</p>
+          <p className="text-gray-700 mb-1">Thank you for getting in touch.</p>
           <p className="text-gray-700 mb-1">Kindly.</p>
-          <p className="text-gray-700">Fill the form, have a great day!</p>
+          <p className="text-gray-700">Fill the form, have a great day.</p>
           
           {/* Decorative "contact us" text */}
           <div className="mt-24 text-8xl font-bold text-gray-100 opacity-50 select-none hidden md:block">
-            contact us
+            <img src="co" alt="" />
           </div>
         </div>
         

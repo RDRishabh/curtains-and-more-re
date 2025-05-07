@@ -8,13 +8,13 @@ const Projects = () => {
     title: "CURTAINS",
     intro: [
       "Our inspired collections of fabrics, cushion covers, tiebacks, wall art and more look stunning in contemporary or period settings. We aim to create beautiful, enduring pieces for your home.",
-      "We supply our comprehensive ranges of very high-quality products directly to the home owners and interior designers in London. With over hundreds of lines and fabrics from cotton, linen, silk, velvet etc you will be spoilt for choice.",
+      "We supply our comprehensive ranges of very high quality products directly to the home owners and interior designers in London. With over hundreds of lines and fabrics from cotton, linen, silk, velvet etc you will be spoilt for choice.",
       "For beautiful made to measure curtains in Harrow, Kenton, Pinner, Watford, Wembley, Northwood, Finchley, Edgware, Enfield, Hayes, Slough and around London, give us a call and see how we could help you."
     ],
     items: [
       {
         title: "Rod Pocket Curtains",
-        content: "Rod pocket curtains have a sewn-in pocket at the top that slides directly onto the curtain rod. They create a gathered, casual look that works well in traditional and country-style interiors.",
+        content: "Rod pocket curtains have a sewn in pocket at the top that slides directly onto the curtain rod. They create a gathered, casual look that works well in traditional and country style interiors.",
         image: "/png/Aboutus.png"
       },
       {
@@ -24,7 +24,7 @@ const Projects = () => {
       },
       {
         title: "Tab Top Curtains",
-        content: "Tab top curtains have fabric loops or tabs at the top that slide over the curtain rod. They create a relaxed, informal look that's ideal for casual living spaces and country-style interiors.",
+        content: "Tab top curtains have fabric loops or tabs at the top that slide over the curtain rod. They create a relaxed, informal look that's ideal for casual living spaces and countrystyle interiors.",
         image: "/png/Aboutus.png"
       },
       {
@@ -39,7 +39,7 @@ const Projects = () => {
       },
       {
         title: "Sheer Curtains",
-        content: "Sheer curtains are made from lightweight, semi-transparent fabrics that allow light to filter through. They provide privacy while still letting in natural light, perfect as standalone curtains or layered under heavier drapes.",
+        content: "Sheer curtains are made from lightweight, semitransparent fabrics that allow light to filter through. They provide privacy while still letting in natural light, perfect as standalone curtains or layered under heavier drapes.",
         image: "/png/Aboutus.png"
       },
       {
@@ -68,7 +68,7 @@ const Projects = () => {
     title: "BLINDS",
     intro: [
       "Our inspired collections of fabrics, cushion covers, tiebacks, wall art and more look stunning in contemporary or period settings. We aim to create beautiful, enduring pieces for your home.",
-      "We supply our comprehensive ranges of very high-quality products directly to the home owners and interior designers in London. With over hundreds of lines and fabrics from cotton, linen, silk, velvet etc you will be spoilt for choice.",
+      "We supply our comprehensive ranges of very high quality products directly to the home owners and interior designers in London. With over hundreds of lines and fabrics from cotton, linen, silk, velvet etc you will be spoilt for choice.",
       "For beautiful made to measure curtains in Harrow, Kenton, Pinner, Watford, Wembley, Northwood, Finchley, Edgware, Enfield, Hayes, Slough and around London, give us a call and see how we could help you."
     ],
     items: [
@@ -84,27 +84,27 @@ const Projects = () => {
       },
       {
         title: "Vinyl Shutters",
-        content: "Vinyl shutters offer excellent durability and moisture resistance at an affordable price point. Easy to clean and maintain, they're ideal for high-traffic areas and homes with children or pets.",
+        content: "Vinyl shutters offer excellent durability and moisture resistance at an affordable price point. Easy to clean and maintain, they're ideal for high traffic areas and homes with children or pets.",
         image: "/png/Aboutus.png"
       },
       {
         title: "Plantation Shutters",
-        content: "Plantation shutters feature wide louvers that allow maximum light and visibility when open. Their classic, Southern-inspired design adds architectural interest and increases home value.",
+        content: "Plantation shutters feature wide louvers that allow maximum light and visibility when open. Their classic, Southern inspired design adds architectural interest and increases home value.",
         image: "/png/Aboutus.png"
       },
       {
         title: "Café Style Shutters",
-        content: "Café style shutters cover only the bottom portion of windows, offering privacy while still allowing plenty of natural light. Perfect for street-level windows in urban homes.",
+        content: "Café style shutters cover only the bottom portion of windows, offering privacy while still allowing plenty of natural light. Perfect for street level windows in urban homes.",
         image: "/png/Aboutus.png"
       },
       {
-        title: "Full-Height Shutters",
-        content: "Full-height shutters cover the entire window from top to bottom. They provide maximum privacy and light control while creating a clean, unified look for your windows.",
+        title: "Full Height Shutters",
+        content: "Full height shutters cover the entire window from top to bottom. They provide maximum privacy and light control while creating a clean, unified look for your windows.",
         image: "/png/Aboutus.png"
       },
       {
-        title: "Tier-on-Tier Shutters",
-        content: "Tier-on-tier shutters feature independent top and bottom panels that can be opened separately. This design offers maximum flexibility for light control and privacy throughout the day.",
+        title: "Tier on Tier Shutters",
+        content: "Tier on tier shutters feature independent top and bottom panels that can be opened separately. This design offers maximum flexibility for light control and privacy throughout the day.",
         image: "/png/Aboutus.png"
       },
       {
@@ -128,7 +128,7 @@ const Projects = () => {
     title: "SHUTTERS",
     intro: [
       "Our inspired collections of fabrics, cushion covers, tiebacks, wall art and more look stunning in contemporary or period settings. We aim to create beautiful, enduring pieces for your home.",
-      "We supply our comprehensive ranges of very high-quality products directly to the home owners and interior designers in London. With over hundreds of lines and fabrics from cotton, linen, silk, velvet etc you will be spoilt for choice.",
+      "We supply our comprehensive ranges of very high quality products directly to the home owners and interior designers in London. With over hundreds of lines and fabrics from cotton, linen, silk, velvet etc you will be spoilt for choice.",
       "For beautiful made to measure curtains in Harrow, Kenton, Pinner, Watford, Wembley, Northwood, Finchley, Edgware, Enfield, Hayes, Slough and around London, give us a call and see how we could help you."
     ],
     items: [
@@ -154,7 +154,7 @@ const Projects = () => {
       },
       {
         title: "Honeycomb/Cellular Blinds",
-        content: "Honeycomb blinds feature a unique cellular structure that traps air, providing excellent insulation. They're energy-efficient and available in single, double, or triple-cell designs for various insulation needs.",
+        content: "Honeycomb blinds feature a unique cellular structure that traps air, providing excellent insulation. They're energy efficient and available in single, double, or triple cell designs for various insulation needs.",
         image: "/png/Aboutus.png"
       },
       {
