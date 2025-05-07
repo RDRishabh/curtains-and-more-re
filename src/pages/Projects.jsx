@@ -186,7 +186,7 @@ const Projects = () => {
   return (
     <>
       <HeroSection
-        image="/png/contactuscta.png"
+        image="/png/ProjectsHeroSection.jpg"
         text="Projects"
       />
       

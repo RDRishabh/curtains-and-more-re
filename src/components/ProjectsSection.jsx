@@ -31,18 +31,18 @@ const ProjectsSection = ({ title, intro, items, galleryImages }) => {
   return (
     <div className="max-w-6xl mx-auto px-4 py-12">
       {/* Heading and Introduction */}
-      <h1 className="text-3xl font-serif mb-6 text-gray-800">{title}</h1>
+      <h1 className="text-3xl font-quincy mb-6 text-gray-800">{title}</h1>
       
       <div className="mb-8 space-y-4">
         {intro.map((paragraph, i) => (
-          <p key={i} className="text-gray-700">
+          <p key={i} className="text-gray-700 font-lovato">
             {paragraph}
           </p>
         ))}
       </div>
       
       {/* Dropdown Sections */}
-      <div className="space-y-3 mb-10">
+      <div className="space-y-3 mb-10 font-lovato">
         {items.map((item, index) => (
           <div key={index} className="border border-gray-200 rounded-md shadow-sm overflow-hidden">
             {/* Dropdown Header */}

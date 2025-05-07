@@ -10,7 +10,7 @@ const WhyUsSection = () => {
           WHY US?
         </h2>
 
-        <div className="flex flex-wrap justify-center items-center gap-x-6 gap-y-3 mb-12 text-[#d2c0a6] text-sm sm:text-base font-lovato">
+        <div className="flex flex-wrap justify-center items-center gap-x-6 gap-y-3 mb-12 text-[#d2c0a6] text-sm sm:text-base font-quincy">
           <span className="uppercase">FREE QUOTES</span>
           <span className="text-xl">•</span>
           <span className="uppercase">LOCALLY OWNED</span>
@@ -26,7 +26,7 @@ const WhyUsSection = () => {
               alt="Curtains"
               className="mb-4 w-full h-auto max-w-[260px] object-cover"
             />
-            <h3 className="text-xl text-gray-700 mb-3 font-lovato">Curtains</h3>
+            <h3 className="text-xl text-gray-700 mb-3 font-quincy">Curtains</h3>
             <Link
               to="/curtains"
               className="bg-[#a6b4c2] text-white py-2 px-6 uppercase text-sm tracking-wider hover:bg-[#93a1af] transition font-lovato"
@@ -42,7 +42,7 @@ const WhyUsSection = () => {
               alt="Blinds"
               className="mb-4 w-full h-auto max-w-[260px] object-cover"
             />
-            <h3 className="text-xl text-gray-700 mb-3 font-lovato">Blinds</h3>
+            <h3 className="text-xl text-gray-700 mb-3 font-quincy">Blinds</h3>
             <Link
               to="/blinds"
               className="bg-[#a6b4c2] text-white py-2 px-6 uppercase text-sm tracking-wider hover:bg-[#93a1af] transition font-lovato"
@@ -58,7 +58,7 @@ const WhyUsSection = () => {
               alt="Shutters"
               className="mb-4 w-full h-auto max-w-[260px] object-cover"
             />
-            <h3 className="text-xl text-gray-700 mb-3 font-lovato">Shutters</h3>
+            <h3 className="text-xl text-gray-700 mb-3 font-quincy">Shutters</h3>
             <Link
               to="/shutters"
               className="bg-[#a6b4c2] text-white py-2 px-6 uppercase text-sm tracking-wider hover:bg-[#93a1af] transition font-lovato"
@@ -69,10 +69,10 @@ const WhyUsSection = () => {
         </div>
 
         <div className="mt-16 text-center">
-          <p className="text-2xl italic text-gray-700 mb-2 font-lovato">
+          <p className="text-2xl italic text-gray-700 mb-2 font-quincy">
             <span className='font-serif'>"</span>Simplicity is the ultimate form of sophistication.<span className='font-serif'>"</span>
           </p>
-          <p className="text-gray-600 font-lovato">- Leonardo da Vinci</p>
+          <p className="text-gray-600 font-lovato">Leonardo da Vinci</p>
         </div>
       </div>
     </section>

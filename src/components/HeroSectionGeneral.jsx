@@ -18,13 +18,13 @@ export default function HeroSection({ image, text }) {
       />
 
       {/* Semi-transparent overlay */}
-      <div className="absolute inset-0 h-[80vh] bg-black/40"></div>
+      <div className="absolute inset-0 h-[80vh] bg-black/60"></div>
 
       {/* Hero Content */}
       <div className="relative h-[80vh] flex items-center justify-center z-10">
         <div className="text-center px-6">
           <div className="rounded-sm">
-            <h2 className="text-white text-3xl font-semibold">
+            <h2 className="text-white text-3xl font-semibold font-quincy">
               {text}
             </h2>
           </div>

@@ -27,7 +27,7 @@ export default function ContactForm() {
   };
 
   return (
-    <div className="w-full max-w-6xl mx-auto py-16 px-4 relative">
+    <div className="w-full max-w-6xl mx-auto py-16 px-4 relative font-quincy">
       {/* Decorative pendant light */}
       <div className="absolute top-0 left-1/2 transform -translate-x-1/2">
         <svg width="40" height="80" viewBox="0 0 40 80" fill="none" xmlns="http://www.w3.org/2000/svg">

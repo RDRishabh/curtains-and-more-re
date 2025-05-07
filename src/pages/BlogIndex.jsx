@@ -18,17 +18,17 @@ export default function BlogIndex() {
     : posts.filter(post => post.category === filter);
 
   return (
-    <div className="bg-[#FAF9F6] py-20 px-6 md:px-24 text-black">
+    <div className="bg-[#FAF9F6] py-20 px-6 md:px-24 text-black font-quincy">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h1 className="text-4xl md:text-5xl font-serif font-bold text-gray-900 mb-4">Our Journal</h1>
-          <p className="text-gray-600 max-w-2xl mx-auto">
+          <h1 className="text-4xl md:text-5xl font-quincy font-bold text-gray-900 mb-4">Our Journal</h1>
+          <p className="text-gray-600 max-w-2xl mx-auto font-lovato">
             Explore our latest trends, tips and inspiration for your home decor journey.
           </p>
         </div>
 
         {/* Category Filter */}
-        <div className="mb-10 flex justify-center">
+        <div className="mb-10 flex justify-center font-lovato">
           <div className="inline-flex flex-wrap gap-2 justify-center">
             {categories.map((category) => (
               <button

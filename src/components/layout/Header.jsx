@@ -20,13 +20,12 @@ const Header = () => {
   return (
     <header className="bg-[#f4f1ea] py-4 relative z-50">
   <div className="container mx-auto px-4">
-    <div className="flex justify-between items-center">
-      {/* Logo on Left */}
+    <div className="flex justify-between items-center lg:justify-center">
+      
       <Link to="/" className="flex items-center">
         <img src="/png/logo.png" alt="Logo" className="h-12 w-auto" />
       </Link>
 
-      {/* Hamburger on Right */}
       <button
         onClick={toggleSidebar}
         className="lg:hidden text-gray-600 hover:text-gray-900 focus:outline-none"

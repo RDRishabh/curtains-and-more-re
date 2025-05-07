@@ -4,7 +4,7 @@ const MeetTheFounder = () => {
   return (
     <section className="bg-[#FAF9F6] py-24 px-4 md:px-16">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl md:text-5xl text-center font-serif font-bold text-black mb-16">
+        <h2 className="text-4xl md:text-5xl text-center font-quincy font-bold text-black mb-16">
           Meet the Founder
         </h2>
 
@@ -22,8 +22,8 @@ const MeetTheFounder = () => {
           </div>
 
           {/* Founder Description */}
-          <div className="w-full lg:w-3/5">
-            <h3 className="text-3xl font-serif font-bold text-black mb-6">
+          <div className="w-full lg:w-3/5 font-lovato">
+            <h3 className="text-3xl font-quincy font-bold text-black mb-6">
               Pooja Bhutoria
             </h3>
 
@@ -53,13 +53,13 @@ const MeetTheFounder = () => {
             <div className="mt-10 flex flex-wrap items-center gap-6">
               <a
                 href="/portfolio"
-                className="px-8 py-3 bg-black text-white font-medium rounded-lg hover:bg-gray-800 transition-colors"
+                className="px-8 py-3 bg-black text-white font-medium font-quincy rounded-lg hover:bg-gray-800 transition-colors"
               >
                 View Portfolio
               </a>
               <a
                 href="/contact"
-                className="px-8 py-3 border-2 border-black text-black font-medium rounded-lg hover:bg-black hover:text-white transition-colors"
+                className="px-8 py-3 border-2 border-black text-black font-qunicy font-medium rounded-lg hover:bg-black hover:text-white transition-colors"
               >
                 Get in Touch
               </a>

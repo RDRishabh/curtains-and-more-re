@@ -18,8 +18,8 @@ const AboutUsSection = () => {
           </div>
           
           {/* Content Column - Using flex to center content vertically */}
-          <div className="flex flex-col justify-center">
-            <h2 className="text-3xl font-medium text-gray-800 mb-6">ABOUT US</h2>
+          <div className="flex flex-col justify-center font-lovato">
+            <h2 className="text-3xl font-medium text-gray-800 mb-6 font-quincy">ABOUT US</h2>
             
             <p className="text-gray-700 mb-4">
               Our inspired collections of fabrics, cushion covers, tiebacks, wall art and 

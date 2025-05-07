@@ -3,7 +3,7 @@ import React from 'react';
 
 const BlogCard = ({ post }) => {
   return (
-    <div className="bg-white rounded-lg overflow-hidden shadow-md transition-transform duration-300 hover:shadow-lg hover:-translate-y-1">
+    <div className="bg-white rounded-lg overflow-hidden font-quincy shadow-md transition-transform duration-300 hover:shadow-lg hover:-translate-y-1">
       <div className="relative h-64 w-full">
         <img 
           src={post.coverImage} 
