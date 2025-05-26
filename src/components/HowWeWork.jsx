@@ -5,27 +5,27 @@ const HowWeWorkSection = () => {
   const workSteps = [
     {
       icon: <Mail className="h-12 w-12 text-[#bfa98c] mb-4" />,
-      title: "1. Enquire",
+      title: "Enquire",
       description: "Get in touch through our online form, phone or email—whatever's most convenient for you."
     },
     {
       icon: <MessageCircle className="h-12 w-12 text-[#bfa98c] mb-4" />,
-      title: "2. Consult",
+      title: "Consult",
       description: "We discuss your requirements and provide a clear idea of the cost—either in person or over a call."
     },
     {
       icon: <Hand className="h-12 w-12 text-[#bfa98c] mb-4" />,
-      title: "3. Select and Measure",
+      title: "Select and Measure",
       description: "With our expert design guidance, select your ideal fabric and finish, then we take exact measurements at your home"
     },
     {
       icon: <Scissors className="h-12 w-12 text-[#bfa98c] mb-4" />,
-      title: "4. Process",
+      title: "Process",
       description: "Our skilled craftsmen hand-finish your order"
     },
     {
       icon: <Truck className="h-12 w-12 text-[#bfa98c] mb-4" />,
-      title: "5. Installation",
+      title: "Installation",
       description: "We professionally install your custom-made curtains or blinds"
     }
   ];
@@ -41,7 +41,7 @@ const HowWeWorkSection = () => {
           {workSteps.slice(0, 3).map((step, index) => (
             <div key={index} className="flex flex-col items-center text-center px-4">
               <div className="mb-4">{step.icon}</div>
-              <h3 className="font-quincy text-lg text-[#2e2e2e] mb-3">{step.title}</h3>
+              <h3 className="font-quincy text-lg text-[#2e2e2e] mb-3"><span className="font-sans">{index+1}. </span>{step.title}</h3>
               <p className="font-lovato text-sm text-[#444] leading-relaxed">{step.description}</p>
             </div>
           ))}
@@ -53,7 +53,7 @@ const HowWeWorkSection = () => {
             {workSteps.slice(3, 5).map((step, index) => (
               <div key={index + 3} className="flex flex-col items-center text-center px-4">
                 <div className="mb-4">{step.icon}</div>
-                <h3 className="font-quincy text-lg text-[#2e2e2e] mb-3">{step.title}</h3>
+                <h3 className="font-quincy text-lg text-[#2e2e2e] mb-3"><span className="font-sans">{index+4}. </span>{step.title}</h3>
                 <p className="font-lovato text-sm text-[#444] leading-relaxed">{step.description}</p>
               </div>
             ))}

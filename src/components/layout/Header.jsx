@@ -14,46 +14,43 @@ const Header = () => {
   return (
     <header className="bg-[#f4f1ea] py-4 relative z-50">
       <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between lg:grid lg:grid-cols-3">
-          {/* Logo - Left */}
-          <div className="flex items-center">
+        {/* Flex container for all header content */}
+        <div className="flex items-center justify-between">
+
+          {/* Left: Logo */}
+          <div className="flex items-center flex-shrink-0">
             <Link to="/">
               <img src="/png/logo.png" alt="Logo" className="h-12 w-auto" />
             </Link>
           </div>
 
-          {/* Navigation - Center */}
-          <nav className="hidden lg:flex justify-center">
+          {/* Center: Navigation - hidden on small screens */}
+          <nav className="hidden lg:flex flex-1 justify-center">
             <ul className="flex space-x-6 md:space-x-8">
-              <li>
-                <Link to="/projects" className="text-gray-600 hover:text-gray-900 uppercase text-md tracking-wider font-quincy">PROJECTS</Link>
-              </li>
-              <li>
-                <Link to="/our-story" className="text-gray-600 hover:text-gray-900 uppercase text-md tracking-wider font-quincy">OUR STORY</Link>
-              </li>
-              <li>
-                <Link to="/how-we-work" className="text-gray-600 hover:text-gray-900 uppercase text-md tracking-wider font-quincy">HOW WE WORK</Link>
-              </li>
-              <li>
-                <Link to="/blog" className="text-gray-600 hover:text-gray-900 uppercase text-md tracking-wider font-quincy">BLOG</Link>
-              </li>
+              <li><Link to="/projects" className="text-gray-600 hover:text-gray-900 uppercase text-md tracking-wider font-quincy">PROJECTS</Link></li>
+              <li><Link to="/our-story" className="text-gray-600 hover:text-gray-900 uppercase text-md tracking-wider font-quincy">OUR STORY</Link></li>
+              <li><Link to="/how-we-work" className="text-gray-600 hover:text-gray-900 uppercase text-md tracking-wider font-quincy">HOW WE WORK</Link></li>
+              <li><Link to="/blog" className="text-gray-600 hover:text-gray-900 uppercase text-md tracking-wider font-quincy">BLOG</Link></li>
             </ul>
           </nav>
 
-          {/* Social Media Icons - Right */}
-          <div className="hidden lg:flex justify-end space-x-4 text-gray-600">
-            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"><FaInstagram size={20} /></a>
-            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"><FaFacebook size={20} /></a>
-            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer"><FaLinkedin size={20} /></a>
-          </div>
+          {/* Right: Social Icons + Hamburger */}
+          <div className="flex items-center space-x-4">
+            {/* Social Icons - hidden on mobile */}
+            <div className="hidden lg:flex space-x-4 text-gray-600">
+              <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"><FaInstagram size={20} /></a>
+              <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"><FaFacebook size={20} /></a>
+              <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer"><FaLinkedin size={20} /></a>
+            </div>
 
-          {/* Mobile Hamburger - visible only on small screens */}
-          <button
-            onClick={toggleSidebar}
-            className="lg:hidden text-gray-600 hover:text-gray-900 focus:outline-none"
-          >
-            <Menu size={28} />
-          </button>
+            {/* Hamburger Menu - shown only on mobile */}
+            <button
+              onClick={toggleSidebar}
+              className="lg:hidden text-gray-600 hover:text-gray-900 focus:outline-none"
+            >
+              <Menu size={28} />
+            </button>
+          </div>
         </div>
       </div>
 
