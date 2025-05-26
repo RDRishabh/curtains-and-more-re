@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { GoogleMap, Marker, useJsApiLoader } from '@react-google-maps/api';
-import { MapPin, ExternalLink, Navigation } from 'lucide-react';
+import { Navigation } from 'lucide-react';
 
 const containerStyle = {
   width: '100%',
@@ -9,7 +9,7 @@ const containerStyle = {
 
 const mapCenter = { lat: 51.5549, lng: -0.2800 };
 
-const locations = [
+const primaryLocations = [
   { name: "Watford", lat: 51.6565, lng: -0.3903, link: "https://maps.google.com?q=51.6565,-0.3903" },
   { name: "Enfield", lat: 51.6515, lng: -0.0800, link: "https://maps.google.com?q=51.6515,-0.0800" },
   { name: "Luton", lat: 51.8787, lng: -0.4200, link: "https://maps.google.com?q=51.8787,-0.4200" },
@@ -25,6 +25,24 @@ const serviceAreas = [
   ["Ickenham", "Finchley"],
   ["Hatchend", "Mill Hill"],
   ["Stanmore", "Central London"],
+];
+
+// Convert all service areas to marker entries (approximate lat/lngs may be needed if not exact)
+const areaMarkers = [
+  { name: "Harrow", lat: 51.5806, lng: -0.3417 },
+  { name: "Golders Green", lat: 51.5723, lng: -0.1945 },
+  { name: "Pinner", lat: 51.5933, lng: -0.3891 },
+  { name: "Hendon", lat: 51.5836, lng: -0.2253 },
+  { name: "Northwood", lat: 51.6103, lng: -0.4239 },
+  { name: "Wembley", lat: 51.5588, lng: -0.2817 },
+  { name: "Kenton", lat: 51.5829, lng: -0.3178 },
+  { name: "Uxbridge", lat: 51.5467, lng: -0.4780 },
+  { name: "Ickenham", lat: 51.5691, lng: -0.4427 },
+  { name: "Finchley", lat: 51.5981, lng: -0.1870 },
+  { name: "Hatchend", lat: 51.6095, lng: -0.3625 },
+  { name: "Mill Hill", lat: 51.6135, lng: -0.2399 },
+  { name: "Stanmore", lat: 51.6195, lng: -0.3030 },
+  { name: "Central London", lat: 51.5074, lng: -0.1278 },
 ];
 
 const WorkLocations = () => {
@@ -48,7 +66,9 @@ const WorkLocations = () => {
       <div className="max-w-7xl mx-auto">
         <div className="mb-10 text-center">
           <h2 className="text-4xl font-bold text-gray-800 mb-3">Our Service Locations</h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">We provide services across North London and surrounding areas. Find your nearest location below.</p>
+          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+            We provide services across North London and surrounding areas. Find your nearest location below.
+          </p>
         </div>
 
         <div className="flex flex-col lg:flex-row gap-8">
@@ -59,7 +79,7 @@ const WorkLocations = () => {
                 mapContainerStyle={containerStyle}
                 center={mapCenter}
                 zoom={10}
-                options={{ 
+                options={{
                   disableDefaultUI: false,
                   zoomControl: true,
                   streetViewControl: false,
@@ -74,32 +94,40 @@ const WorkLocations = () => {
                   ]
                 }}
               >
-                {locations.map((location, index) => (
+                {[...primaryLocations, ...areaMarkers].map((location, index) => (
                   <Marker
                     key={index}
                     position={{ lat: location.lat, lng: location.lng }}
                     title={location.name}
                     onClick={() => setActiveLocation(location)}
-                    animation={window.google?.maps.Animation.DROP}
+                    icon={{
+                      path: google.maps.SymbolPath.CIRCLE,
+                      scale: 6, // smaller circle
+                      fillColor: "#FF5733", // tailwind blue-600
+                      fillOpacity: 1,
+                      strokeWeight: 0,
+                    }}
                   />
                 ))}
               </GoogleMap>
-              
+
               {activeLocation && (
                 <div className="mt-4 p-4 bg-blue-50 rounded-lg border border-blue-200 flex items-center justify-between">
                   <div>
                     <h4 className="font-medium text-blue-800">{activeLocation.name}</h4>
                     <p className="text-sm text-gray-600">Lat: {activeLocation.lat.toFixed(4)}, Lng: {activeLocation.lng.toFixed(4)}</p>
                   </div>
-                  <a 
-                    href={activeLocation.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center gap-1 px-3 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-md transition"
-                  >
-                    <Navigation size={16} />
-                    <span>Directions</span>
-                  </a>
+                  {activeLocation.link && (
+                    <a
+                      href={activeLocation.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-1 px-3 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-md transition"
+                    >
+                      <Navigation size={16} />
+                      <span>Directions</span>
+                    </a>
+                  )}
                 </div>
               )}
             </div>
@@ -117,6 +145,9 @@ const WorkLocations = () => {
                   </div>
                 ))}
               </div>
+              <p className="mt-4 text-sm text-gray-600 italic">
+                If your area isn’t listed, feel free to contact us—we may still be able to help!
+              </p>
             </div>
           </div>
         </div>

@@ -1,53 +1,72 @@
-import React, { useEffect, useState } from 'react';
-import { useInView } from 'react-intersection-observer';
+import React from 'react';
+import { Calendar, Smile, Users, Scissors, Leaf, Clock } from 'lucide-react';
 
-const StatCounter = ({ end, label }) => {
-  const [count, setCount] = useState(0);
-  const [hasStarted, setHasStarted] = useState(false);
-  const { ref, inView } = useInView({ triggerOnce: true });
-
-  useEffect(() => {
-    if (inView && !hasStarted) {
-      setHasStarted(true);
-      let start = 0;
-      const duration = 1500;
-      const increment = end / (duration / 16);
-
-      const counter = setInterval(() => {
-        start += increment;
-        if (start >= end) {
-          setCount(end);
-          clearInterval(counter);
-        } else {
-          setCount(Math.ceil(start));
-        }
-      }, 16);
-    }
-  }, [inView, end, hasStarted]);
-
+const FeatureCard = ({ icon: Icon, title, description }) => {
   return (
-    <div ref={ref} className="text-center px-2 sm:px-4">
-      <div className="text-3xl sm:text-4xl lg:text-5xl font-quincy text-[#bfa98c]">
-        {count}
+    <div className="text-center px-4 py-6">
+      <div className="flex justify-center mb-4">
+        <Icon className="w-12 h-12 text-gray-700" strokeWidth={1.5} />
       </div>
-      <div className="text-base sm:text-2xl lg:text-2xl font-lovato text-[#bfa98c] mt-1">
-        {label}
-      </div>
+      <h3 className="text-lg font-bold text-gray-800 mb-3 uppercase tracking-wide">
+        {title}
+      </h3>
+      <p className="text-gray-700 text-sm leading-relaxed">
+        {description}
+      </p>
     </div>
   );
 };
 
-const StatsSection = () => {
+const FeaturesSection = () => {
+  const features = [
+    {
+      icon: Calendar,
+      title: "Over 1,500 Fabrics to Choose From",
+      description: "A wide and curated selection of premium fabrics to suit every style, taste, and budget."
+    },
+    {
+      icon: Smile,
+      title: "Personalised Service",
+      description: "We take the time to understand your needs and preferences, offering a truly tailored experience."
+    },
+    {
+      icon: Users,
+      title: "Your One-Stop Shop",
+      description: "From consultation and design to delivery and installation—we take care of everything, seamlessly."
+    },
+    {
+      icon: Scissors,
+      title: "Expert Craftsmanship",
+      description: "Every curtain and blind is custom-made by skilled hands, ensuring superior finish and fit."
+    },
+    {
+      icon: Leaf,
+      title: "Bespoke Design for Your Home",
+      description: "Design ideas thoughtfully crafted to reflect your unique space."
+    },
+    {
+      icon: Clock,
+      title: "Timely Turnaround",
+      description: "We value your time—expect efficient service and timely delivery, without compromising on quality."
+    }
+  ];
+
   return (
-    <section className="bg-[#f3efeb] py-10 sm:py-14 lg:py-20">
-      <div className="max-w-6xl mx-auto grid grid-cols-2 sm:grid-cols-4 gap-4 sm:gap-6 lg:gap-8">
-        <StatCounter end={10} label="years" />
-        <StatCounter end={138} label="houses" />
-        <StatCounter end={235} label="offices" />
-        <StatCounter end={32} label="appartments" />
+    <section className="bg-[#f3efeb] py-6 sm:py-6 lg:py-8">
+      <div className="max-w-6xl mx-auto px-4">
+        <div className="  font-quincy grid grid-cols-1 md:grid-cols-3 gap-2 lg:gap-4">
+          {features.map((feature, index) => (
+            <FeatureCard
+              key={index}
+              icon={feature.icon}
+              title={feature.title}
+              // description={feature.description}
+            />
+          ))}
+        </div>
       </div>
     </section>
   );
 };
 
-export default StatsSection;
+export default FeaturesSection;

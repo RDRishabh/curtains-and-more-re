@@ -61,18 +61,8 @@ const ProjectsSection = ({ title, intro, items, galleryImages }) => {
             {openDropdown === index && (
               <div className="px-6 py-4 bg-gray-50">
                 <div className="flex flex-col md:flex-row gap-6">
-                  <div className="md:w-2/3">
+                  <div className="">
                     <p className="text-gray-700 mb-4">{item.content}</p>
-                    <button className="bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-700 transition-colors">
-                      Learn More
-                    </button>
-                  </div>
-                  <div className="md:w-1/3">
-                    <img 
-                      src={item.image} 
-                      alt={`${item.title} example`} 
-                      className="w-full h-auto rounded"
-                    />
                   </div>
                 </div>
               </div>
