@@ -72,7 +72,6 @@ const Projects = () => {
       { src: "/png/Image11.png", alt: "Curtain example 11" },
       { src: "/png/Image12.png", alt: "Curtain example 12" },
       { src: "/png/Image13.png", alt: "Curtain example 13" },
-      { src: "/png/Image14.gif", alt: "Curtain example 14" },
       { src: "/png/Image15.png", alt: "Curtain example 15" },
       { src: "/png/Image16.png", alt: "Curtain example 16" },
       { src: "/png/Image17.png", alt: "Curtain example 17" },
