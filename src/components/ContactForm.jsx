@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-export default function ContactForm() {
+export default function ContactForm({ id }) {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -67,7 +67,7 @@ export default function ContactForm() {
   };
 
   return (
-    <div className="w-full max-w-6xl mx-auto pt-16 px-4 relative font-quincy">
+    <div id={id} className="w-full max-w-6xl mx-auto pt-16 px-4 relative font-quincy">
       <div className="absolute top-0 left-1/2 transform -translate-x-1/2">
         <svg width="40" height="80" viewBox="0 0 40 80" fill="none" xmlns="http://www.w3.org/2000/svg">
           <rect x="19" y="0" width="2" height="40" fill="black" />

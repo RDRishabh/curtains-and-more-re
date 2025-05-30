@@ -13,7 +13,7 @@ const HowWeWork = () => {
       />
       <HowWeWorkSection />
       <ContactUsCTA />
-      <ContactForm />
+      <ContactForm id="contact" />
       {/* Other sections will go here */}
     </div>
   );
