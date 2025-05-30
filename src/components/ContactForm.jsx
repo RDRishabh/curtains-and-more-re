@@ -11,6 +11,9 @@ export default function ContactForm() {
     message: ''
   });
 
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [submitStatus, setSubmitStatus] = useState(null);
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData(prev => ({
@@ -19,149 +22,113 @@ export default function ContactForm() {
     }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Here you would typically send the form data to your backend
-    console.log('Form submitted:', formData);
-    // Reset form or show success message
+    setIsSubmitting(true);
+    setSubmitStatus(null);
+
+    // Replace this URL with your deployed Apps Script web app URL
+    const BACKEND_URL = 'https://script.google.com/macros/s/AKfycbx5s96jS_TqrTF_xnQQlvd1uDNPLizqAaz0CHE-8LCgM6OXHupjnFfyxkkr_lTVOhHMHA/exec';
+
+    try {
+      const response = await fetch(BACKEND_URL, {
+        method: 'POST',
+        mode: 'no-cors',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData)
+      });
+
+      setSubmitStatus({
+        type: 'success',
+        message: 'Thank you! Your message has been sent successfully.'
+      });
+
+      // Clear form after success
+      setFormData({
+        name: '',
+        email: '',
+        phone: '',
+        country: '',
+        company: '',
+        interest: '',
+        message: ''
+      });
+    } catch (error) {
+      console.error('Error submitting form:', error);
+      setSubmitStatus({
+        type: 'error',
+        message: 'Sorry, there was an error sending your message. Please try again.'
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
     <div className="w-full max-w-6xl mx-auto pt-16 px-4 relative font-quincy">
-      {/* Decorative pendant light */}
       <div className="absolute top-0 left-1/2 transform -translate-x-1/2">
         <svg width="40" height="80" viewBox="0 0 40 80" fill="none" xmlns="http://www.w3.org/2000/svg">
           <rect x="19" y="0" width="2" height="40" fill="black" />
           <path d="M10 40 C10 30 30 30 30 40 L30 60 C30 70 10 70 10 60 Z" fill="black" />
         </svg>
       </div>
-      
+
       <div className="flex flex-col md:flex-row gap-8 md:gap-16 mt-12">
-        {/* Left section with text */}
         <div className="w-full md:w-1/2">
           <h2 className="text-4xl font-serif mb-2 text-gray-900">Have an idea</h2>
           <h3 className="text-4xl font-serif mb-6 text-gray-900">Let's discuss</h3>
-          
           <p className="text-gray-700 mb-1">Thank you for getting in touch.</p>
           <p className="text-gray-700 mb-1">Kindly.</p>
           <p className="text-gray-700">Fill the form, have a great day.</p>
-          
-          
         </div>
-        
-        {/* Right section with form */}
+
         <div className="w-full md:w-1/2">
-          <div className="contact-form">
+          <form onSubmit={handleSubmit} className="contact-form">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
-              {/* Name field */}
-              <div className="w-full">
-                <input
-                  type="text"
-                  name="name"
-                  value={formData.name}
-                  onChange={handleChange}
-                  placeholder="Your Name"
-                  className="w-full border-b border-gray-300 py-2 focus:outline-none focus:border-gray-500"
-                />
-              </div>
-              
-              {/* Email field */}
-              <div className="w-full">
-                <input
-                  type="email"
-                  name="email"
-                  value={formData.email}
-                  onChange={handleChange}
-                  placeholder="Your Email"
-                  className="w-full border-b border-gray-300 py-2 focus:outline-none focus:border-gray-500"
-                />
-              </div>
-              
-              {/* Phone field */}
-              <div className="w-full">
-                <input
-                  type="tel"
-                  name="phone"
-                  value={formData.phone}
-                  onChange={handleChange}
-                  placeholder="Phone Number"
-                  className="w-full border-b border-gray-300 py-2 focus:outline-none focus:border-gray-500"
-                />
-              </div>
-              
-              {/* Country dropdown */}
-              <div className="w-full">
-                <select
-                  name="country"
-                  value={formData.country}
-                  onChange={handleChange}
-                  className="w-full border-b border-gray-300 py-2 focus:outline-none focus:border-gray-500 bg-white"
-                >
-                  <option value="" disabled>Country</option>
-                  <option value="uk">United Kingdom</option>
-                  <option value="us">United States</option>
-                  <option value="ca">Canada</option>
-                  <option value="au">Australia</option>
-                  <option value="other">Other</option>
-                </select>
-              </div>
-              
-              {/* Company field */}
-              <div className="w-full">
-                <input
-                  type="text"
-                  name="company"
-                  value={formData.company}
-                  onChange={handleChange}
-                  placeholder="Company Name"
-                  className="w-full border-b border-gray-300 py-2 focus:outline-none focus:border-gray-500"
-                />
-              </div>
-              
-              {/* Interest dropdown */}
-              <div className="w-full">
-                <select
-                  name="interest"
-                  value={formData.interest}
-                  onChange={handleChange}
-                  className="w-full border-b border-gray-300 py-2 focus:outline-none focus:border-gray-500 bg-white"
-                >
-                  <option value="" disabled>Interested in</option>
-                  <option value="curtains">Curtains</option>
-                  <option value="blinds">Blinds</option>
-                  <option value="furnishings">Soft Furnishings</option>
-                  <option value="consultation">Design Consultation</option>
-                  <option value="other">Other</option>
-                </select>
-              </div>
+              <input type="text" name="name" value={formData.name} onChange={handleChange} placeholder="Your Name" required className="w-full border-b border-gray-300 py-2 focus:outline-none focus:border-gray-500" />
+              <input type="email" name="email" value={formData.email} onChange={handleChange} placeholder="Your Email" required className="w-full border-b border-gray-300 py-2 focus:outline-none focus:border-gray-500" />
+              <input type="tel" name="phone" value={formData.phone} onChange={handleChange} placeholder="Phone Number" className="w-full border-b border-gray-300 py-2 focus:outline-none focus:border-gray-500" />
+              <select name="country" value={formData.country} onChange={handleChange} className="w-full border-b border-gray-300 py-2 focus:outline-none focus:border-gray-500 bg-white">
+                <option value="" disabled>Country</option>
+                <option value="uk">United Kingdom</option>
+                <option value="us">United States</option>
+                <option value="ca">Canada</option>
+                <option value="au">Australia</option>
+                <option value="in">India</option>
+                <option value="other">Other</option>
+              </select>
+              <input type="text" name="company" value={formData.company} onChange={handleChange} placeholder="Company Name" className="w-full border-b border-gray-300 py-2 focus:outline-none focus:border-gray-500" />
+              <select name="interest" value={formData.interest} onChange={handleChange} className="w-full border-b border-gray-300 py-2 focus:outline-none focus:border-gray-500 bg-white">
+                <option value="" disabled>Interested in</option>
+                <option value="curtains">Curtains</option>
+                <option value="blinds">Blinds</option>
+                <option value="furnishings">Soft Furnishings</option>
+                <option value="consultation">Design Consultation</option>
+                <option value="other">Other</option>
+              </select>
             </div>
-            
-            {/* Message field - full width */}
+
             <div className="w-full mb-6">
-              <textarea
-                name="message"
-                value={formData.message}
-                onChange={handleChange}
-                placeholder="Message"
-                rows="3"
-                className="w-full border-b border-gray-300 py-2 focus:outline-none focus:border-gray-500 resize-none"
-              ></textarea>
+              <textarea name="message" value={formData.message} onChange={handleChange} placeholder="Message" rows="3" className="w-full border-b border-gray-300 py-2 focus:outline-none focus:border-gray-500 resize-none"></textarea>
             </div>
-            
-            {/* Submit button */}
-            <div 
-              onClick={handleSubmit}
-              className="bg-gray-300 hover:bg-gray-400 text-gray-700 py-2 px-10 transition-colors duration-300 inline-block cursor-pointer"
-            >
-              Submit
-            </div>
-          </div>
+
+            {submitStatus && (
+              <div className={`mb-4 p-3 rounded ${submitStatus.type === 'success' ? 'bg-green-100 text-green-700 border border-green-300' : 'bg-red-100 text-red-700 border border-red-300'}`}>
+                {submitStatus.message}
+              </div>
+            )}
+
+            <button type="submit" disabled={isSubmitting} className={`py-2 px-10 transition-colors duration-300 ${isSubmitting ? 'bg-gray-200 text-gray-500 cursor-not-allowed' : 'bg-gray-300 hover:bg-gray-400 text-gray-700 cursor-pointer'}`}>
+              {isSubmitting ? 'Submitting...' : 'Submit'}
+            </button>
+          </form>
         </div>
       </div>
-      
-      {/* Decorative "contact us" text */}
-      <div className="mt-24 text-8xl font-bold text-gray-100 opacity-50 select-none drop-shadow-lg ">
-        <img src="/png/contactus.png" alt="" />
+
+      <div className="mt-24 text-8xl font-bold text-gray-100 opacity-50 select-none drop-shadow-lg">
+        <img src="/png/contactus.png" alt="Contact Us" />
       </div>
     </div>
   );

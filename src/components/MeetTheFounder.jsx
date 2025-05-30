@@ -51,12 +51,12 @@ const MeetTheFounder = () => {
             </p>
 
             <div className="mt-10 flex flex-wrap items-center gap-6">
-              <a
+              {/* <a
                 href="/portfolio"
                 className="px-8 py-3 bg-black text-white font-medium font-quincy rounded-lg hover:bg-gray-800 transition-colors"
               >
                 View Portfolio
-              </a>
+              </a> */}
               <a
                 href="/contact"
                 className="px-8 py-3 border-2 border-black text-black font-qunicy font-medium rounded-lg hover:bg-black hover:text-white transition-colors"

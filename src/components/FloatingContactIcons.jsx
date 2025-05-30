@@ -4,7 +4,7 @@ const FloatingContactIcons = () => {
       <div className="fixed right-4 top-1/2 transform -translate-y-1/2 z-50 flex flex-col gap-4">
         {/* Phone */}
         <a
-          href="tel:+123456789"
+          href="tel:+447590337823"
           aria-label="Call Us"
           className="bg-white p-3 rounded-full shadow-lg hover:scale-110 transition-transform"
         >
@@ -16,7 +16,7 @@ const FloatingContactIcons = () => {
   
         {/* Email */}
         <a
-          href="mailto:info@curtainsandmore.com"
+          href="mailto:pooja@curtainsandmore.com"
           aria-label="Email Us"
           className="bg-white p-3 rounded-full shadow-lg hover:scale-110 transition-transform"
         >
@@ -28,7 +28,8 @@ const FloatingContactIcons = () => {
   
         {/* WhatsApp */}
         <a
-          href="https://api.whatsapp.com/send?phone=123456789"
+          href="https://wa.me/447590337823"
+          target="_blank"
           aria-label="WhatsApp Us"
           className="bg-[#25D366] p-3 rounded-full shadow-lg hover:brightness-110 transition-transform"
         >

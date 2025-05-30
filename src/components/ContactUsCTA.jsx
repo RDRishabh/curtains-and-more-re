@@ -9,7 +9,7 @@ export default function ContactUsCTA() {
         <div 
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: 'url("/png/contactuscta.png")',
+            backgroundImage: 'url("/png/Image08.png")',
             backgroundPosition: "center 40%"
           }}
           

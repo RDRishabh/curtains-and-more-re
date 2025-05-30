@@ -90,59 +90,45 @@ const Projects = () => {
   const blindsData = {
     title: "SHUTTERS",
     intro: [
-      "Our inspired collections of fabrics, cushion covers, tiebacks, wall art and more look stunning in contemporary or period settings. We aim to create beautiful, enduring pieces for your home.",
-      "We supply our comprehensive ranges of very high quality products directly to the home owners and interior designers in London. With over hundreds of lines and fabrics from cotton, linen, silk, velvet etc you will be spoilt for choice.",
-      "For beautiful made to measure curtains in Harrow, Kenton, Pinner, Watford, Wembley, Northwood, Finchley, Edgware, Enfield, Hayes, Slough and around London, give us a call and see how we could help you."
-    ],
+      "Shutters are solid window coverings, typically made of wood, vinyl, or composite materials, that consist of a frame with adjustable slats or louvres. These slats can be tilted to control the amount of light and air entering a room, offering privacy and light control. Shutters can be installed internally or externally and are often used for decoration, security, or protection against the elements."],
     items: [
       {
-        title: "Wood Shutters",
-        content: "Wood shutters offer a timeless, elegant look with exceptional durability. Made from premium hardwoods, they provide excellent light control and insulation while adding value to your home.",
-        image: "/png/Aboutus.png"
-      },
-      {
-        title: "Composite/Faux Wood Shutters",
-        content: "Composite shutters combine the beauty of wood with enhanced durability and moisture resistance. Perfect for bathrooms, kitchens, or humid environments where real wood might warp.",
-        image: "/png/Aboutus.png"
-      },
-      {
-        title: "Vinyl Shutters",
-        content: "Vinyl shutters offer excellent durability and moisture resistance at an affordable price point. Easy to clean and maintain, they're ideal for high traffic areas and homes with children or pets.",
-        image: "/png/Aboutus.png"
-      },
-      {
         title: "Plantation Shutters",
-        content: "Plantation shutters feature wide louvers that allow maximum light and visibility when open. Their classic, Southern inspired design adds architectural interest and increases home value.",
-        image: "/png/Aboutus.png"
+        content: "A popular style known for their wide, adjustable slats and classic look.",
+        image: ""
       },
       {
-        title: "Café Style Shutters",
-        content: "Café style shutters cover only the bottom portion of windows, offering privacy while still allowing plenty of natural light. Perfect for street level windows in urban homes.",
-        image: "/png/Aboutus.png"
+        title: "Cafe Style Shutters",
+        content: "Cover the lower half of the window, offering privacy while allowing light in.",
+        image: ""
       },
       {
-        title: "Full Height Shutters",
-        content: "Full height shutters cover the entire window from top to bottom. They provide maximum privacy and light control while creating a clean, unified look for your windows.",
-        image: "/png/Aboutus.png"
+        title: "Austin shutters",
+        content: "Transform your home with the luxury and elegance of a real wood shutter. Our made to measure Austin shutters are skilfully hand-made by quality craftsmen.",
+        image: ""
       },
       {
-        title: "Tier on Tier Shutters",
-        content: "Tier on tier shutters feature independent top and bottom panels that can be opened separately. This design offers maximum flexibility for light control and privacy throughout the day.",
-        image: "/png/Aboutus.png"
+        title: "Dulwich Stutters",
+        content: "Perfect for all windows in your home and ideal for your kitchen or bathroom. The Dulwich shutter is made from PVC that is water resistant and can be finished in any colour from our contemporary range. This product is also suitable for areas that see a high volume of traffic thanks to its durable make up. Dulwich Shutters are made from dense PVC that is mortise and tenon joined for ultimate stability and strength.",        
+        image: ""
       },
       {
-        title: "Solid Panel Shutters",
-        content: "Solid panel shutters create a dramatic, traditional look while providing complete privacy and excellent insulation. Ideal for period properties and bedrooms requiring total darkness.",
-        image: "/png/Aboutus.png"
+        title: "Newport shutters",
+        content: "We are delighted to introduce our Newport Shutter. This premium product is made with wood from the Poplar tree; a dense and extremely durable hardwood which, when painted, gives a beautifully luxurious finish. Newport is available in our full range of painted colours including the custom colour option.",
+        image: ""
       }
     ],
     galleryImages: [
-      { src: "/png/Aboutus.png", alt: "Blinds example 1" },
-      { src: "/png/Aboutus.png", alt: "Blinds example 2" },
-      { src: "/png/Aboutus.png", alt: "Blinds example 3" },
-      { src: "/png/Aboutus.png", alt: "Blinds example 4" },
-      { src: "/png/Aboutus.png", alt: "Blinds example 5" },
-      { src: "/png/Aboutus.png", alt: "Blinds example 6" }
+      { src: "/png/s01.webp", alt: "Shutters example 1" },
+      { src: "/png/s02.jpg", alt: "Shutters example 2" },
+      { src: "/png/s03.jpg", alt: "Shutters example 3" },
+      { src: "/png/s04.webp", alt: "Shutters example 4" },
+      { src: "/png/s05.jpg", alt: "Shutters example 5" },
+      { src: "/png/s06.webp", alt: "Shutters example 6" },
+      { src: "/png/s07.webp", alt: "Shutters example 7" },
+      { src: "/png/s08.webp", alt: "Shutters example 8" },
+      { src: "/png/s09.webp", alt: "Shutters example 9" },
+      { src: "/png/s10.jpeg", alt: "Shutters example 10" }
     ]
   };
 
@@ -192,24 +178,28 @@ const Projects = () => {
       },
       {
         title: "Skylight Blinds",
-        content: "Bamboo blinds are made from natural materials like bamboo, jute, and reeds. They add organic texture and warmth to interiors while filtering light beautifully for a natural ambiance.",
+        content: "Skylight blinds are designed to cover skylights and roof windows, lanterns etc providing light control, temperature regulation, and privacy. They help manage the amount of sunlight entering a room, reducing glare and preventing overheating while still allowing natural light to filter in. Key features and benefits.",
         image: ""
       }
     ],
     galleryImages: [
-      { src: "/png/Aboutus.png", alt: "Shutters example 1" },
-      { src: "/png/Aboutus.png", alt: "Shutters example 2" },
-      { src: "/png/Aboutus.png", alt: "Shutters example 3" },
-      { src: "/png/Aboutus.png", alt: "Shutters example 4" },
-      { src: "/png/Aboutus.png", alt: "Shutters example 5" },
-      { src: "/png/Aboutus.png", alt: "Shutters example 6" }
+      { src: "/png/b01.jpg", alt: "Blinds example 1" },
+      { src: "/png/b02.jpg", alt: "Blinds example 2" },
+      { src: "/png/b03.webp", alt: "Blinds example 3" },
+      { src: "/png/b04.jpg", alt: "Blinds example 4" },
+      { src: "/png/b05.jpg", alt: "Blinds example 5" },
+      { src: "/png/b06.jpg", alt: "Blinds example 6" },
+      { src: "/png/b07.jpeg", alt: "Blinds example 7" },
+      { src: "/png/b08.jpg", alt: "Blinds example 8" },
+      { src: "/png/b09.jpg", alt: "Blinds example 9" },
+      { src: "/png/b10.jpg", alt: "Blinds example 10" }
     ]
   };
 
   return (
     <>
       <HeroSection
-        image="/png/ProjectsHeroSection.jpg"
+        image="/png/Image17.png"
         text="Projects"
       />
       

@@ -22,7 +22,7 @@ const WhyUsSection = () => {
           {/* Curtains */}
           <div className="flex flex-col items-center text-center">
             <img
-              src="/png/whyus-01.png"
+              src="/png/whyus-04.png"
               alt="Curtains"
               className="mb-4 w-full h-auto max-w-[260px] object-cover"
             />
@@ -38,7 +38,7 @@ const WhyUsSection = () => {
           {/* Blinds */}
           <div className="flex flex-col items-center text-center">
             <img
-              src="/png/whyus-02.png"
+              src="/png/whyus-05.jpg"
               alt="Blinds"
               className="mb-4 w-full h-auto max-w-[260px] object-cover"
             />
@@ -54,7 +54,7 @@ const WhyUsSection = () => {
           {/* Shutters */}
           <div className="flex flex-col items-center text-center">
             <img
-              src="/png/whyus-03.png"
+              src="/png/whyus-06.jpg"
               alt="Shutters"
               className="mb-4 w-full h-auto max-w-[260px] object-cover"
             />

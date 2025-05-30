@@ -8,7 +8,7 @@ const HowWeWork = () => {
   return (
     <div>
       <HeroSection
-        image="/png/HowWeWorkHeroImage.jpg"
+        image="/png/Image19.png"
         text="How we work"
       />
       <HowWeWorkSection />

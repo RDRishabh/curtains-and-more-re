@@ -7,7 +7,7 @@ const OurStory = () => {
   return (
     <div>
       <HeroSection
-        image="/png/AboutUsHeroImage.jpg"
+        image="/png/Image18.png"
         text="About Us"
       />
       <AboutUsSection />
