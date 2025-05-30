@@ -25,6 +25,7 @@ const WhyUsSection = () => {
               src="https://res.cloudinary.com/dxaycpvto/image/upload/v1748614906/whyus-04_nyajbr.png"
               alt="Curtains"
               className="mb-4 w-full h-auto max-w-[260px] object-cover"
+              loading="lazy"
             />
             <h3 className="text-xl text-gray-700 mb-3 font-quincy">Curtains</h3>
             <Link
@@ -41,6 +42,7 @@ const WhyUsSection = () => {
               src="https://res.cloudinary.com/dxaycpvto/image/upload/v1748614906/whyus-05_n8xqod.png"
               alt="Blinds"
               className="mb-4 w-full h-auto max-w-[260px] object-cover"
+              loading="lazy"
             />
             <h3 className="text-xl text-gray-700 mb-3 font-quincy">Blinds</h3>
             <Link
@@ -57,6 +59,7 @@ const WhyUsSection = () => {
               src="https://res.cloudinary.com/dxaycpvto/image/upload/v1748614906/whyus-06_pu8rrf.png"
               alt="Shutters"
               className="mb-4 w-full h-auto max-w-[260px] object-cover"
+              loading="lazy"
             />
             <h3 className="text-xl text-gray-700 mb-3 font-quincy">Shutters</h3>
             <Link

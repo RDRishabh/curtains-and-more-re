@@ -16,6 +16,7 @@ const MeetTheFounder = () => {
                 src="https://res.cloudinary.com/dxaycpvto/image/upload/v1748617766/Image16_fyox3u.png" // replace with the actual image path
                 alt="Pooja Bhutoria - Founder of Curtains & More"
                 className="rounded-lg shadow-xl object-cover w-full h-auto"
+                loading="lazy"
               />
             </div>
             <div className="absolute -bottom-4 -right-4 w-full h-full bg-gray-200 rounded-lg -z-0"></div>

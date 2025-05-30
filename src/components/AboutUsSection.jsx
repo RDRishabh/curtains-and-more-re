@@ -13,6 +13,7 @@ const AboutUsSection = () => {
                 src="https://res.cloudinary.com/dxaycpvto/image/upload/v1748614897/Aboutus_od5rtf.png" 
                 alt="Gray Curtains" 
                 className="w-full h-auto  shadow-md object-cover "
+                loading="lazy"
               />
             </div>
           </div>

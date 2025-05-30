@@ -109,6 +109,7 @@ const ProjectsSection = ({ title, intro, items, galleryImages }) => {
                 src={image.src} 
                 alt={image.alt || `Example ${index + 1}`} 
                 className="w-full h-48 md:h-60 object-cover rounded"
+                loading='lazy'
               />
             </div>
           ))}

@@ -15,6 +15,7 @@ export default function HeroSection({ image, text }) {
         src={image}
         alt="Hero background"
         className="absolute inset-0 w-full h-full object-cover object-center"
+        loading="lazy"
       />
 
       {/* Semi-transparent overlay */}
