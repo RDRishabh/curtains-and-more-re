@@ -9,6 +9,7 @@ import HowWeWork from './pages/HowWeWork';
 import BlogIndex from './pages/BlogIndex';
 import BlogPost from './pages/BlogPost';
 import FloatingContactIcons from './components/FloatingContactIcons';
+import Contact from './pages/Contact.jsx';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
             <Route path="/how-we-work" element={<HowWeWork />} />
             <Route path="/blog" element={<BlogIndex />} />
             <Route path="/blog/:slug" element={<BlogPost />} />
+            <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
         <Footer />

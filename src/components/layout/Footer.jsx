@@ -11,8 +11,8 @@ export default function Footer() {
             <h3 className="font-medium text-gray-800 mb-4">OUR COMPANY</h3>
             <ul className="space-y-2">
               <li><a href="/our-story" className="text-gray-600 hover:text-gray-900 text-sm">OUR STORY</a></li>
-              <li><a href="/products" className="text-gray-600 hover:text-gray-900 text-sm">PRODUCTS</a></li>
-              <li><a href="/curtain-headings" className="text-gray-600 hover:text-gray-900 text-sm">CURTAIN HEADINGS</a></li>
+              <li><a href="/projects" className="text-gray-600 hover:text-gray-900 text-sm">PROJECTS</a></li>
+              {/* <li><a href="/curtain-headings" className="text-gray-600 hover:text-gray-900 text-sm">CURTAIN HEADINGS</a></li> */}
               <li><a href="/blog" className="text-gray-600 hover:text-gray-900 text-sm">BLOG</a></li>
             </ul>
           </div>
@@ -23,8 +23,8 @@ export default function Footer() {
             <ul className="space-y-2 text-sm text-gray-600">
               <li className="">Email: <a href="mailto:pooja@curtainsandmore.co.uk" className="hover:text-gray-900 font-serif font-medium">pooja@curtainsandmore.co.uk
               </a></li>
-              <li>Phone: <a href="tel:469-372-5774" className="hover:text-gray-900 font-serif font-medium">569 372 5775</a></li>
-              <li className='font-semibold'>Hours: <span className="font-serif font-medium">Mon-Fri: 8am-5pm (CST)</span></li>
+              <li>Phone: <a href="tel:+447590337823" className="hover:text-gray-900 font-serif font-medium">+44-7590337823</a></li>
+              {/* <li className='font-semibold'>Hours: <span className="font-serif font-medium">Mon-Fri: 8am-5pm (CST)</span></li> */}
             </ul>
           </div>
 

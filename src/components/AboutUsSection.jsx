@@ -2,6 +2,13 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const AboutUsSection = () => {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    }); // Scrolls to the top of the page
+  };
+
   return (
     <section className="py-16 bg-white">
       <div className="container mx-auto px-4">
@@ -44,6 +51,7 @@ const AboutUsSection = () => {
             <div>
               <Link 
                 to="/our-story" 
+                onClick={scrollToTop} // Add this onClick handler
                 className="inline-block bg-[#f0ebe2] text-gray-700 py-2 px-10 border rounded-sm border-[#e5dfd4] hover:bg-[#e5dfd4] hover:text-gray-800 text-sm font-medium transition duration-300 ease-in-out shadow-md"
               >
                 Our Story
