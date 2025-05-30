@@ -8,7 +8,7 @@ const HowWeWork = () => {
   return (
     <div>
       <HeroSection
-        image="/png/Image19.png"
+        image="https://res.cloudinary.com/dxaycpvto/image/upload/v1748617771/Image19_y1ulz6.png"
         text="How we work"
       />
       <HowWeWorkSection />

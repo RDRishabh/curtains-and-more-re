@@ -59,30 +59,30 @@ const Projects = () => {
       }
     ],
     galleryImages: [
-      { src: "/png/Image01.png", alt: "Curtain example 1" },
-      { src: "/png/Image02.png", alt: "Curtain example 2" },
-      { src: "/png/Image03.png", alt: "Curtain example 3" },
-      { src: "/png/Image04.png", alt: "Curtain example 4" },
-      { src: "/png/Image05.png", alt: "Curtain example 5" },
-      { src: "/png/Image06.png", alt: "Curtain example 6" },
-      { src: "/png/Image07.png", alt: "Curtain example 7" },
-      { src: "/png/Image08.png", alt: "Curtain example 8" },
-      { src: "/png/Image09.png", alt: "Curtain example 9" },
-      { src: "/png/Image10.png", alt: "Curtain example 10" },
-      { src: "/png/Image11.png", alt: "Curtain example 11" },
-      { src: "/png/Image12.png", alt: "Curtain example 12" },
-      { src: "/png/Image13.png", alt: "Curtain example 13" },
-      { src: "/png/Image15.png", alt: "Curtain example 15" },
-      { src: "/png/Image16.png", alt: "Curtain example 16" },
-      { src: "/png/Image17.png", alt: "Curtain example 17" },
-      { src: "/png/Image18.png", alt: "Curtain example 18" },
-      { src: "/png/Image19.png", alt: "Curtain example 19" },
-      { src: "/png/Image20.png", alt: "Curtain example 20" },
-      { src: "/png/Image21.png", alt: "Curtain example 21" },
-      { src: "/png/Image22.png", alt: "Curtain example 22" },
-      { src: "/png/Image23.png", alt: "Curtain example 23" },
-      { src: "/png/Image24.png", alt: "Curtain example 24" },
-      { src: "/png/Image25.png", alt: "Curtain example 25" },
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748617778/Image01_k1vh8m.png", alt: "Curtain example 1" },
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748617778/Image02_ea316k.png", alt: "Curtain example 2" },
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748617777/Image03_slxmkb.png", alt: "Curtain example 3" },
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748617740/Image04_e6tqej.png", alt: "Curtain example 4" },
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748617777/Image05_blngmi.png", alt: "Curtain example 5" },
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748617776/Image06_nv3nk1.png", alt: "Curtain example 6" },
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748617776/Image07_nyo4mt.png", alt: "Curtain example 7" },
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748617775/Image08_rqcnjg.png", alt: "Curtain example 8" },
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748617774/Image09_wnzjon.png", alt: "Curtain example 9" },
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748617778/Image10_lgmro9.png", alt: "Curtain example 10" },
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748617773/Image11_d4dva0.png", alt: "Curtain example 11" },
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748617764/Image12_grhkxl.png", alt: "Curtain example 12" },
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748617767/Image13_qan31g.png", alt: "Curtain example 13" },
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748617768/Image15_nogsjt.png", alt: "Curtain example 15" },
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748617766/Image16_fyox3u.png", alt: "Curtain example 16" },
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748617770/Image17_psv8an.png", alt: "Curtain example 17" },
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748617767/Image18_al2sna.png", alt: "Curtain example 18" },
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748617771/Image19_y1ulz6.png", alt: "Curtain example 19" },
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748617772/Image20_rpkh8d.png", alt: "Curtain example 20" },
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748617770/Image21_kmvyyj.png", alt: "Curtain example 21" },
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748617770/Image22_z2llnz.png", alt: "Curtain example 22" },
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748617770/Image23_splw9x.png", alt: "Curtain example 23" },
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748617771/Image24_avyy77.png", alt: "Curtain example 24" },
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748617772/Image25_x7xudb.png", alt: "Curtain example 25" },
     ]
   };
 
@@ -119,16 +119,16 @@ const Projects = () => {
       }
     ],
     galleryImages: [
-      { src: "/png/s01.webp", alt: "Shutters example 1" },
-      { src: "/png/s02.jpg", alt: "Shutters example 2" },
-      { src: "/png/s03.jpg", alt: "Shutters example 3" },
-      { src: "/png/s04.webp", alt: "Shutters example 4" },
-      { src: "/png/s05.jpg", alt: "Shutters example 5" },
-      { src: "/png/s06.webp", alt: "Shutters example 6" },
-      { src: "/png/s07.webp", alt: "Shutters example 7" },
-      { src: "/png/s08.webp", alt: "Shutters example 8" },
-      { src: "/png/s09.webp", alt: "Shutters example 9" },
-      { src: "/png/s10.jpeg", alt: "Shutters example 10" }
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748614904/s01_rrmlyr.webp", alt: "Shutters example 1" },
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748614904/s02_eooamh.jpg", alt: "Shutters example 2" },
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748614904/s03_ec8kgj.jpg", alt: "Shutters example 3" },
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748614904/s04_cssunp.webp", alt: "Shutters example 4" },
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748614905/s05_inywwy.jpg", alt: "Shutters example 5" },
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748614905/s06_tjlqee.webp", alt: "Shutters example 6" },
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748614905/s07_utxgv5.webp", alt: "Shutters example 7" },
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748614905/s08_cvqlhq.webp", alt: "Shutters example 8" },
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748614905/s09_z2gs7c.webp", alt: "Shutters example 9" },
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748614905/s10_f9nxwt.jpg", alt: "Shutters example 10" }
     ]
   };
 
@@ -183,23 +183,23 @@ const Projects = () => {
       }
     ],
     galleryImages: [
-      { src: "/png/b01.jpg", alt: "Blinds example 1" },
-      { src: "/png/b02.jpg", alt: "Blinds example 2" },
-      { src: "/png/b03.webp", alt: "Blinds example 3" },
-      { src: "/png/b04.jpg", alt: "Blinds example 4" },
-      { src: "/png/b05.jpg", alt: "Blinds example 5" },
-      { src: "/png/b06.jpg", alt: "Blinds example 6" },
-      { src: "/png/b07.jpeg", alt: "Blinds example 7" },
-      { src: "/png/b08.jpg", alt: "Blinds example 8" },
-      { src: "/png/b09.jpg", alt: "Blinds example 9" },
-      { src: "/png/b10.jpg", alt: "Blinds example 10" }
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748614898/b01_nbtvmt.jpg", alt: "Blinds example 1" },
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748614897/b02_fnh00n.jpg", alt: "Blinds example 2" },
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748614898/b03_qj3gvw.webp", alt: "Blinds example 3" },
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748614897/b04_trk8pz.jpg" },
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748614898/b05_nerrgl.jpg", alt: "Blinds example 5" },
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748614898/b06_as8utp.jpg", alt: "Blinds example 6" },
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748614899/b07_afidjh.jpg", alt: "Blinds example 7" },
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748614896/b08_p7rzgp.jpg", alt: "Blinds example 8" },
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748614896/b09_z99qiz.jpg", alt: "Blinds example 9" },
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748614897/b10_tmyqp2.jpg", alt: "Blinds example 10" }
     ]
   };
 
   return (
     <>
       <HeroSection
-        image="/png/Image17.png"
+        image="https://res.cloudinary.com/dxaycpvto/image/upload/v1748617770/Image17_psv8an.png"
         text="Projects"
       />
       

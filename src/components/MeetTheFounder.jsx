@@ -13,7 +13,7 @@ const MeetTheFounder = () => {
           <div className="w-full lg:w-2/5 relative">
             <div className="relative z-10">
               <img
-                src="/png/Aboutus.png" // replace with the actual image path
+                src="https://res.cloudinary.com/dxaycpvto/image/upload/v1748617766/Image16_fyox3u.png" // replace with the actual image path
                 alt="Pooja Bhutoria - Founder of Curtains & More"
                 className="rounded-lg shadow-xl object-cover w-full h-auto"
               />

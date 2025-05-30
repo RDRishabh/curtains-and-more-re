@@ -22,7 +22,7 @@ const WhyUsSection = () => {
           {/* Curtains */}
           <div className="flex flex-col items-center text-center">
             <img
-              src="/png/whyus-04.png"
+              src="https://res.cloudinary.com/dxaycpvto/image/upload/v1748614906/whyus-04_nyajbr.png"
               alt="Curtains"
               className="mb-4 w-full h-auto max-w-[260px] object-cover"
             />
@@ -38,7 +38,7 @@ const WhyUsSection = () => {
           {/* Blinds */}
           <div className="flex flex-col items-center text-center">
             <img
-              src="/png/whyus-05.jpg"
+              src="https://res.cloudinary.com/dxaycpvto/image/upload/v1748614906/whyus-05_n8xqod.png"
               alt="Blinds"
               className="mb-4 w-full h-auto max-w-[260px] object-cover"
             />
@@ -54,7 +54,7 @@ const WhyUsSection = () => {
           {/* Shutters */}
           <div className="flex flex-col items-center text-center">
             <img
-              src="/png/whyus-06.jpg"
+              src="https://res.cloudinary.com/dxaycpvto/image/upload/v1748614906/whyus-06_pu8rrf.png"
               alt="Shutters"
               className="mb-4 w-full h-auto max-w-[260px] object-cover"
             />

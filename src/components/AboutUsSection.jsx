@@ -10,7 +10,7 @@ const AboutUsSection = () => {
           <div className="flex items-center justify-center">
             <div className="max-h-[600px] overflow-hidden rounded-2xl">
               <img 
-                src="/png/Aboutus.png" 
+                src="https://res.cloudinary.com/dxaycpvto/image/upload/v1748614897/Aboutus_od5rtf.png" 
                 alt="Gray Curtains" 
                 className="w-full h-auto  shadow-md object-cover "
               />

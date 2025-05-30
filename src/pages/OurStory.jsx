@@ -7,7 +7,7 @@ const OurStory = () => {
   return (
     <div>
       <HeroSection
-        image="/png/Image18.png"
+        image="https://res.cloudinary.com/dxaycpvto/image/upload/v1748617778/Image01_k1vh8m.png"
         text="About Us"
       />
       <AboutUsSection />
