@@ -6,7 +6,7 @@
       "date": "2025 03 15T12:00:00Z",
       "author": {
         "name": "Pooja Shah",
-        "picture": "/authors/image.png",
+        "picture": "/png/logo123.jpg",
         "bio": "Interior design expert with 10+ years of experience in home decor."
       },
       "coverImage": "https://res.cloudinary.com/dxaycpvto/image/upload/v1748617778/Image01_k1vh8m.png",
@@ -20,7 +20,7 @@
       "date": "2025 03 10T10:00:00Z",
       "author": {
         "name": "Amit Patel",
-        "picture": "/authors/image.png",
+        "picture": "/png/logo123.jpg",
         "bio": "Professional organizer and efficiency coach."
       },
       "coverImage": "https://res.cloudinary.com/dxaycpvto/image/upload/v1748619497/d39fa1ef-8b54-4262-926f-da85e1b0edd3.png",
@@ -34,7 +34,7 @@
       "date": "2025 03 05T08:00:00Z",
       "author": {
         "name": "Riya Mehta",
-        "picture": "/authors/image.png",
+        "picture": "/png/logo123.jpg",
         "bio": "Lifestyle blogger passionate about simplicity and sustainability."
       },
       "coverImage": "https://res.cloudinary.com/dxaycpvto/image/upload/v1748617770/Image17_psv8an.png",
@@ -48,7 +48,7 @@
       "date": "2025 03 01T09:00:00Z",
       "author": {
         "name": "Sara Khan",
-        "picture": "/authors/image.png",
+        "picture": "/png/logo123.jpg",
         "bio": "Plant enthusiast and gardening coach."
       },
       "coverImage": "https://res.cloudinary.com/dxaycpvto/image/upload/v1748617775/Image08_rqcnjg.png",
@@ -62,7 +62,7 @@
       "date": "2025 02 25T14:00:00Z",
       "author": {
         "name": "Neha Arora",
-        "picture": "/authors/image.png",
+        "picture": "/png/logo123.jpg",
         "bio": "Interior stylist specializing in functional and cozy spaces."
       },
       "coverImage": "https://res.cloudinary.com/dxaycpvto/image/upload/v1748617767/Image13_qan31g.png",
