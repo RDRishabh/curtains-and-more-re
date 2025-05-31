@@ -28,14 +28,14 @@ export default function ContactUsCTA() {
         {/* CTA Content */}
         <div className="absolute inset-0 flex flex-col items-center justify-center">
           <div className="max-w-md w-full px-6 py-8 text-center">
-            <div className="bg-black/40 bg-opacity-80 p-6 mb-4 rounded-sm">
-              <h2 className="text-white text-3xl font-medium mb-4 font-quincy">
+            <div className="bg-black/40 bg-opacity-80 p-6 rounded-sm">
+              <h2 className="text-white text-3xl font-medium font-quincy">
                 Book your free measure and quote
               </h2>
             </div>
 
             <button
-              className="bg-[#A7B4BF] text-gray-700 -mt-4 px-8 py-3 font-medium font-lovato transition-colors duration-300 uppercase tracking-wide"
+              className="bg-[#A7B4BF] text-gray-700 -mt-4 px-8 py-3 font-medium font-lovato transition-colors duration-300 uppercase tracking-wide cursor-pointer"
               onClick={scrollToContactForm} // Changed this line
             >
               CONTACT US NOW

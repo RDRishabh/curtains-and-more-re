@@ -165,7 +165,7 @@ const GoogleReviewsSlider = () => {
         <div className="relative">
           <button
             onClick={prevSlide}
-            className="absolute left-0 top-1/2 -translate-y-1/2 bg-white rounded-full p-2 shadow-md z-10"
+            className="absolute left-0 top-1/2 -translate-y-1/2 bg-white rounded-full p-2 shadow-md z-10 cursor-pointer"
             aria-label="Previous review"
           >
             <ChevronLeft className="w-5 h-5 text-gray-600" />
@@ -206,7 +206,7 @@ const GoogleReviewsSlider = () => {
 
           <button
             onClick={nextSlide}
-            className="absolute right-0 top-1/2 -translate-y-1/2 bg-white rounded-full p-2 shadow-md z-10"
+            className="absolute right-0 top-1/2 -translate-y-1/2 bg-white rounded-full p-2 shadow-md z-10 cursor-pointer"
             aria-label="Next review"
           >
             <ChevronRight className="w-5 h-5 text-gray-600" />
