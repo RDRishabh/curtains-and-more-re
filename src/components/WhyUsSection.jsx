@@ -10,7 +10,7 @@ const WhyUsSection = () => {
           WHY US?
         </h2>
 
-        <div className="flex flex-wrap justify-center items-center gap-x-6 gap-y-3 mb-12 text-[#d2c0a6] text-sm sm:text-base font-quincy">
+        <div className="flex flex-wrap justify-center items-center gap-x-6 gap-y-3 mb-12 text-[#827056] text-sm sm:text-base font-quincy">
           <span className="uppercase">FREE QUOTES</span>
           <span className="text-xl">•</span>
           <span className="uppercase">LOCALLY OWNED</span>

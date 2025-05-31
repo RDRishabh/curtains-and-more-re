@@ -27,6 +27,7 @@ const Header = () => {
           {/* Center: Navigation - hidden on small screens */}
           <nav className="hidden lg:flex flex-1 justify-center">
             <ul className="flex space-x-6 md:space-x-8">
+              <li><Link to="/" className="text-gray-600 hover:text-gray-900 uppercase text-md tracking-wider font-quincy">HOME</Link></li>
               <li><Link to="/projects" className="text-gray-600 hover:text-gray-900 uppercase text-md tracking-wider font-quincy">PROJECTS</Link></li>
               <li><Link to="/our-story" className="text-gray-600 hover:text-gray-900 uppercase text-md tracking-wider font-quincy">OUR STORY</Link></li>
               <li><Link to="/how-we-work" className="text-gray-600 hover:text-gray-900 uppercase text-md tracking-wider font-quincy">HOW WE WORK</Link></li>
@@ -62,6 +63,7 @@ const Header = () => {
           </button>
         </div>
         <ul className="flex flex-col items-center space-y-6">
+          <li><Link to="/" onClick={toggleSidebar} className="text-gray-600 hover:text-gray-900 uppercase text-sm tracking-wider font-quincy">HOME</Link></li>
           <li><Link to="/projects" onClick={toggleSidebar} className="text-gray-600 hover:text-gray-900 uppercase text-sm tracking-wider font-quincy">PROJECTS</Link></li>
           <li><Link to="/our-story" onClick={toggleSidebar} className="text-gray-600 hover:text-gray-900 uppercase text-sm tracking-wider font-quincy">OUR STORY</Link></li>
           <li><Link to="/how-we-work" onClick={toggleSidebar} className="text-gray-600 hover:text-gray-900 uppercase text-sm tracking-wider font-quincy">HOW WE WORK</Link></li>

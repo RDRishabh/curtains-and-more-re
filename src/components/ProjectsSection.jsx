@@ -29,9 +29,9 @@ const ProjectsSection = ({ title, intro, items, galleryImages }) => {
   };
 
   return (
-    <div className="max-w-6xl mx-auto px-4 py-12">
+    <div className="max-w-6xl mx-auto px-4 pt-8 md:pt-12">
       {/* Heading and Introduction */}
-      <h1 className="text-3xl font-quincy mb-6 text-gray-800">{title}</h1>
+      <h1 className="text-3xl font-quincy mb-3 md:mb-5 text-gray-800">{title}</h1>
       
       <div className="mb-8 space-y-4">
         {intro.map((paragraph, i) => (

@@ -62,10 +62,10 @@ const WorkLocations = () => {
   );
 
   return (
-    <section className="py-16 px-4 md:px-8 lg:px-12 bg-gray-50">
+    <section className="py-16 px-4 md:px-8 lg:px-12 bg-gray-50 font-lovato">
       <div className="max-w-7xl mx-auto">
         <div className="mb-10 text-center">
-          <h2 className="text-4xl font-bold text-gray-800 mb-3">Our Service Locations</h2>
+          <h2 className="text-4xl font-bold text-gray-800 mb-3 font-quincy">Our Service Locations</h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             We provide services across North London and surrounding areas. Find your nearest location below.
           </p>

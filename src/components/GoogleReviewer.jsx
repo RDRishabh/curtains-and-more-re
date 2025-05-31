@@ -109,10 +109,38 @@ const GoogleReviewsSlider = () => {
     setCurrentSlide((prev) => (prev - 1 + reviews.length) % reviews.length);
   };
 
+  // const truncateComment = (comment, url) => {
+  //   return (
+  //     <>
+  //       {comment.slice(0, 200)}...
+  //       <a href={url} target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-blue-600 ml-1">
+  //         <ExternalLink className="w-4 h-4" />
+  //       </a>
+  //     </>
+  //   );
+  // };
+
   const truncateComment = (comment, url) => {
+    // Function to wrap symbols with sans-serif font
+    const formatTextWithSymbols = (text) => {
+      // Regex to match common symbols that might not render well in custom fonts
+      const symbolRegex = /([^\w\s\.,;:!?\-'"()[\]{}@#$%^&*+=<>/\\|`~])/g;
+      
+      return text.split(symbolRegex).map((part, index) => {
+        if (symbolRegex.test(part)) {
+          return (
+            <span key={index} className="font-sans">
+              {part}
+            </span>
+          );
+        }
+        return part;
+      });
+    };
+
     return (
       <>
-        {comment.slice(0, 200)}...
+        {formatTextWithSymbols(comment.slice(0, 200))}...
         <a href={url} target="_blank" rel="noopener noreferrer" className="inline-flex items-center text-blue-600 ml-1">
           <ExternalLink className="w-4 h-4" />
         </a>

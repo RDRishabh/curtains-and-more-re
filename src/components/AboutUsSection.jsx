@@ -17,7 +17,7 @@ const AboutUsSection = () => {
           <div className="flex items-center justify-center">
             <div className="max-h-[600px] overflow-hidden rounded-2xl">
               <img 
-                src="https://res.cloudinary.com/dxaycpvto/image/upload/v1748614897/Aboutus_od5rtf.png" 
+                src="/png/aboutus123.png" 
                 alt="Gray Curtains" 
                 className="w-full h-auto  shadow-md object-cover "
                 loading="lazy"
@@ -27,7 +27,7 @@ const AboutUsSection = () => {
           
           {/* Content Column - Using flex to center content vertically */}
           <div className="flex flex-col justify-center font-lovato">
-            <h2 className="text-3xl font-medium text-gray-800 mb-6 font-quincy">ABOUT US</h2>
+            <h2 className="text-3xl font-medium text-gray-800 mb-6 font-quincy">OUR STORY</h2>
             
             <p className="text-gray-700 mb-4">
               Our inspired collections of fabrics, cushion covers, tiebacks, wall art and 
