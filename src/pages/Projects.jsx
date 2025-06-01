@@ -177,8 +177,21 @@ const Projects = () => {
         image: ""
       },
       {
-        title: "Skylight Blinds",
-        content: "Skylight blinds are designed to cover skylights and roof windows, lanterns etc providing light control, temperature regulation, and privacy. They help manage the amount of sunlight entering a room, reducing glare and preventing overheating while still allowing natural light to filter in. Key features and benefits.",
+        title: "Skylight Blinds",
+        content: `
+          <p>Skylight blinds are designed to cover skylights and roof windows, lanterns etc providing light control, temperature regulation, and privacy. They help manage the amount of sunlight entering a room, reducing glare and preventing overheating while still allowing natural light to filter in.</p>
+
+          <p><strong>Key features and benefits:</strong></p>
+
+          <p><strong>Light control:</strong><br>
+          Skylight blinds allow you to adjust the amount of light entering a room, blocking out excessive sunlight or UV rays.</p>
+
+          <p><strong>Temperature regulation:</strong><br>
+          They can help reduce heat gain in summer and reduce heat loss in winter, improving energy efficiency.</p>
+
+          <p><strong>Privacy:</strong><br>
+          Skylight blinds can provide a level of privacy, especially in attics or loft conversion.</p>
+        `,
         image: ""
       }
     ],

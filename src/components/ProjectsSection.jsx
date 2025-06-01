@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 import { ChevronDown, ChevronLeft, ChevronRight } from 'lucide-react';
 
-const ProjectsSection = ({ title, intro, items, galleryImages }) => {
+const ProjectsSection = ({ title = "Projects", intro = [], items = [], galleryImages = [] }) => {
   // State to track which dropdown is open
   const [openDropdown, setOpenDropdown] = useState(null);
   const carouselRef = useRef(null);
@@ -34,7 +34,7 @@ const ProjectsSection = ({ title, intro, items, galleryImages }) => {
       <h1 className="text-3xl font-quincy mb-3 md:mb-5 text-gray-800">{title}</h1>
       
       <div className="mb-8 space-y-4">
-        {intro.map((paragraph, i) => (
+        {intro?.map((paragraph, i) => (
           <p key={i} className="text-gray-700 font-lovato">
             {paragraph}
           </p>
@@ -43,7 +43,7 @@ const ProjectsSection = ({ title, intro, items, galleryImages }) => {
       
       {/* Dropdown Sections */}
       <div className="space-y-3 mb-10 font-lovato">
-        {items.map((item, index) => (
+        {items?.map((item, index) => (
           <div key={index} className="border border-gray-200 rounded-md shadow-sm overflow-hidden">
             {/* Dropdown Header */}
             <button 
@@ -61,8 +61,11 @@ const ProjectsSection = ({ title, intro, items, galleryImages }) => {
             {openDropdown === index && (
               <div className="px-6 py-4 bg-gray-50">
                 <div className="flex flex-col md:flex-row gap-6">
-                  <div className="">
-                    <p className="text-gray-700 mb-4">{item.content}</p>
+                  <div className="text-gray-700">
+                    <div 
+                      dangerouslySetInnerHTML={{ __html: item.content }}
+                      className="prose prose-sm max-w-none [&>p]:mb-3 [&>p:last-child]:mb-0"
+                    />
                   </div>
                 </div>
               </div>
@@ -100,7 +103,7 @@ const ProjectsSection = ({ title, intro, items, galleryImages }) => {
           className="flex overflow-x-auto scrollbar-hide snap-x snap-mandatory gap-4 pb-4"
           style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
         >
-          {galleryImages.map((image, index) => (
+          {galleryImages?.map((image, index) => (
             <div 
               key={index} 
               className="flex-none w-64 md:w-80 snap-start"
