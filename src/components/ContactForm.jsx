@@ -77,8 +77,8 @@ export default function ContactForm({ id }) {
 
       <div className="flex flex-col md:flex-row gap-8 md:gap-16 mt-12">
         <div className="w-full md:w-1/2">
-          <h2 className="text-4xl font-serif mb-2 text-gray-900">Have an idea,</h2>
-          <h3 className="text-4xl font-serif mb-6 text-gray-900">Let's discuss</h3>
+          <h2 className="text-4xl font-serif mb-2 text-gray-900">Have an Idea? Let's Discuss.</h2>
+          {/* <h3 className="text-4xl font-serif mb-6 text-gray-900">Let's Discuss.</h3> */}
           <p className="text-gray-700 mb-1">Thank you for getting in touch.</p>
           <p className="text-gray-700 mb-1">Kindly fill the form, have a great day!.</p>
         </div>
