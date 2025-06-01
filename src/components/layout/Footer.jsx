@@ -5,9 +5,9 @@ export default function Footer() {
   return (
     <footer className="w-full py-12" style={{ backgroundColor: '#F1ECE8' }}>
       <div className="max-w-6xl mx-auto px-4 font-quincy">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="flex flex-col md:flex-row md:justify-between gap-8">
           {/* OUR COMPANY Section */}
-          <div>
+          <div className="flex-1">
             <h3 className="font-medium text-gray-800 mb-4">OUR COMPANY</h3>
             <ul className="space-y-2">
               <li><a href="/our-story" className="text-gray-600 hover:text-gray-900 text-sm">OUR STORY</a></li>
@@ -16,9 +16,9 @@ export default function Footer() {
               <li><a href="/blog" className="text-gray-600 hover:text-gray-900 text-sm">BLOG</a></li>
             </ul>
           </div>
-
+          
           {/* CONTACT US Section */}
-          <div>
+          <div className="flex-1 md:mr-12">
             <h3 className="font-medium text-gray-800 mb-4">CONTACT US</h3>
             <ul className="space-y-2 text-sm text-gray-600">
               <li className="">Email: <a href="mailto:pooja@curtainsandmore.co.uk" className="hover:text-gray-900 font-serif font-medium">pooja@curtainsandmore.co.uk
@@ -27,9 +27,9 @@ export default function Footer() {
               {/* <li className='font-semibold'>Hours: <span className="font-serif font-medium">Mon-Fri: 8am-5pm (CST)</span></li> */}
             </ul>
           </div>
-
+          
           {/* QUOTE Section */}
-          <div>
+          <div className="flex-1">
             <h3 className="font-medium text-gray-800 mb-4">QUOTE</h3>
             <p className="text-sm text-gray-600 mb-4">
               Book your free measure and quote
@@ -46,16 +46,16 @@ export default function Footer() {
               </a>
             </div>
           </div>
-
+          
           {/* ABOUT Section */}
-          <div>
+          <div className="flex-1">
             <h3 className="font-medium text-gray-800 mb-4">ABOUT</h3>
             <p className="text-sm text-gray-600">
               Curtains and More, Made to order Blinds, Curtains and Shutters via our website.
             </p>
           </div>
         </div>
-
+        
         {/* Copyright at bottom */}
         <div className="mt-12 text-center text-xs text-gray-500">
           Copyright © Curtains and More 2025
