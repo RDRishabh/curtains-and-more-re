@@ -77,11 +77,10 @@ export default function ContactForm({ id }) {
 
       <div className="flex flex-col md:flex-row gap-8 md:gap-16 mt-12">
         <div className="w-full md:w-1/2">
-          <h2 className="text-4xl font-serif mb-2 text-gray-900">Have an idea</h2>
+          <h2 className="text-4xl font-serif mb-2 text-gray-900">Have an idea,</h2>
           <h3 className="text-4xl font-serif mb-6 text-gray-900">Let's discuss</h3>
           <p className="text-gray-700 mb-1">Thank you for getting in touch.</p>
-          <p className="text-gray-700 mb-1">Kindly.</p>
-          <p className="text-gray-700">Fill the form, have a great day.</p>
+          <p className="text-gray-700 mb-1">Kindly fill the form, have a great day!.</p>
         </div>
 
         <div className="w-full md:w-1/2">
@@ -93,10 +92,6 @@ export default function ContactForm({ id }) {
               <select name="country" value={formData.country} onChange={handleChange} className="w-full border-b border-gray-300 py-2 focus:outline-none focus:border-gray-500 bg-white">
                 <option value="" disabled>Country</option>
                 <option value="uk">United Kingdom</option>
-                <option value="us">United States</option>
-                <option value="ca">Canada</option>
-                <option value="au">Australia</option>
-                <option value="in">India</option>
                 <option value="other">Other</option>
               </select>
               <input type="text" name="company" value={formData.company} onChange={handleChange} placeholder="Company Name" className="w-full border-b border-gray-300 py-2 focus:outline-none focus:border-gray-500" />
