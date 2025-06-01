@@ -51,6 +51,10 @@ export default function BlogPost() {
     };
     return colors[category] || 'bg-gray-100 text-gray-800';
   };
+  
+  const handleClick = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
 
   return (
     <div className="bg-[#FAF9F6] min-h-screen py-10 px-6 md:px-24 text-black">
@@ -164,6 +168,7 @@ export default function BlogPost() {
         <div className="mt-16 text-center">
           <Link 
             to="/blog" 
+            onClick={handleClick}
             className="inline-block bg-gray-900 text-white px-6 py-3 rounded-lg hover:bg-gray-800 transition-colors duration-200"
           >
             Read More Articles
