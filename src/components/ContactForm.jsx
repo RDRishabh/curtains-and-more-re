@@ -90,9 +90,9 @@ export default function ContactForm({ id }) {
               <input type="email" name="email" value={formData.email} onChange={handleChange} placeholder="Your Email" required className="w-full border-b border-gray-300 py-2 focus:outline-none focus:border-gray-500" />
               <input type="tel" name="phone" value={formData.phone} onChange={handleChange} placeholder="Phone Number" className="w-full border-b border-gray-300 py-2 focus:outline-none focus:border-gray-500" />
               <select name="country" value={formData.country} onChange={handleChange} className="w-full border-b border-gray-300 py-2 focus:outline-none focus:border-gray-500 bg-white">
-                <option value="" disabled>Country</option>
+                {/* <option value="" disabled>Country</option> */}
                 <option value="uk">United Kingdom</option>
-                <option value="other">Other</option>
+                {/* <option value="other">Other</option> */}
               </select>
               <input type="text" name="company" value={formData.company} onChange={handleChange} placeholder="Company Name" className="w-full border-b border-gray-300 py-2 focus:outline-none focus:border-gray-500" />
               <select name="interest" value={formData.interest} onChange={handleChange} className="w-full border-b border-gray-300 py-2 focus:outline-none focus:border-gray-500 bg-white">
