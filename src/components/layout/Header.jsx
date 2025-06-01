@@ -39,9 +39,9 @@ const Header = () => {
           <div className="flex items-center space-x-4">
             {/* Social Icons - hidden on mobile */}
             <div className="hidden lg:flex space-x-4 text-gray-600">
-              <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"><FaInstagram size={20} /></a>
-              <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"><FaFacebook size={20} /></a>
-              <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer"><FaLinkedin size={20} /></a>
+              <a href="https://www.instagram.com/curtainsandmoreuk" target="_blank" rel="noopener noreferrer"><FaInstagram size={20} /></a>
+              <a href="https://www.facebook.com/curtainsandmoreuk" target="_blank" rel="noopener noreferrer"><FaFacebook size={20} /></a>
+              {/* <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer"><FaLinkedin size={20} /></a> */}
             </div>
 
             {/* Hamburger Menu - shown only on mobile */}

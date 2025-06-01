@@ -1,5 +1,7 @@
 import React from 'react';
 import { Facebook, Instagram, Twitter } from 'lucide-react';
+import { FaInstagram, FaFacebook, FaLinkedin } from 'react-icons/fa';
+
 
 export default function Footer() {
   return (
@@ -35,14 +37,11 @@ export default function Footer() {
               Book your free measure and quote
             </p>
             <div className="flex space-x-4">
-              <a href="https://facebook.com" className="text-gray-600 hover:text-gray-900">
-                <Facebook size={20} />
+              <a href="https://www.instagram.com/curtainsandmoreuk" className="text-gray-600 hover:text-gray-900">
+                <FaInstagram size={20} /> 
               </a>
-              <a href="https://twitter.com" className="text-gray-600 hover:text-gray-900">
-                <Twitter size={20} />
-              </a>
-              <a href="https://instagram.com" className="text-gray-600 hover:text-gray-900">
-                <Instagram size={20} />
+              <a href="https://www.facebook.com/curtainsandmoreuk" className="text-gray-600 hover:text-gray-900">
+                <FaFacebook size={20} />
               </a>
             </div>
           </div>

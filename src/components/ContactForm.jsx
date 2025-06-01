@@ -99,7 +99,7 @@ export default function ContactForm({ id }) {
                 <option value="" disabled>Interested in</option>
                 <option value="curtains">Curtains</option>
                 <option value="blinds">Blinds</option>
-                <option value="blinds">Shutters</option>
+                <option value="shutters">Shutters</option>
                 <option value="other">Other</option>
               </select>
             </div>
