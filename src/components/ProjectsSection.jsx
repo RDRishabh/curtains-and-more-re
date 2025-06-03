@@ -36,7 +36,11 @@ const ProjectsSection = ({ title = "Projects", intro = [], items = [], galleryIm
       <div className="mb-8 space-y-4">
         {intro?.map((paragraph, i) => (
           <p key={i} className="text-gray-700 font-lovato">
-            {paragraph}
+            {/* {paragraph} */}
+            <div 
+              dangerouslySetInnerHTML={{ __html: paragraph }}
+              className="prose prose-sm max-w-none [&>p]:mb-3 [&>p:last-child]:mb-0"
+            />
           </p>
         ))}
       </div>
@@ -61,12 +65,25 @@ const ProjectsSection = ({ title = "Projects", intro = [], items = [], galleryIm
             {openDropdown === index && (
               <div className="px-6 py-4 bg-gray-50">
                 <div className="flex flex-col md:flex-row gap-6">
-                  <div className="text-gray-700">
+                  {/* Text Content */}
+                  <div className={`text-gray-700 ${item.image ? 'md:w-2/3' : 'w-full'}`}>
                     <div 
                       dangerouslySetInnerHTML={{ __html: item.content }}
                       className="prose prose-sm max-w-none [&>p]:mb-3 [&>p:last-child]:mb-0"
                     />
                   </div>
+                  
+                  {/* Image */}
+                  {item.image && (
+                    <div className="md:w-1/3 flex-shrink-0">
+                      <img 
+                        src={item.image} 
+                        alt={item.title}
+                        className="w-full h-48 md:h-56 object-cover rounded-lg shadow-sm"
+                        loading="lazy"
+                      />
+                    </div>
+                  )}
                 </div>
               </div>
             )}

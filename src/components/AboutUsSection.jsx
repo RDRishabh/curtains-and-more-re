@@ -17,7 +17,7 @@ const AboutUsSection = () => {
           <div className="flex items-center justify-center">
             <div className="max-h-[600px] overflow-hidden rounded-2xl">
               <img 
-                src="/png/aboutus123.png" 
+                src="https://res.cloudinary.com/dxaycpvto/image/upload/v1748964567/aboutus123_q7gghq.jpg" 
                 alt="Gray Curtains" 
                 className="w-full h-auto  shadow-md object-cover "
                 loading="lazy"

@@ -7,30 +7,30 @@ const Projects = () => {
   const curtainsData = {
     title: "CURTAINS",
     intro: [
-      "Our inspired collections of fabrics, cushion covers, tiebacks, wall art and more look stunning in contemporary or period settings. We aim to create beautiful, enduring pieces for your home.",
-      "We supply our comprehensive ranges of very high quality products directly to the home owners and interior designers in London. With over hundreds of lines and fabrics from cotton, linen, silk, velvet etc you will be spoilt for choice.",
-      "For beautiful made to measure curtains in Harrow, Kenton, Pinner, Watford, Wembley, Northwood, Finchley, Edgware, Enfield, Hayes, Slough and around London, give us a call and see how we could help you."
+      "At Curtains & More , we craft bespoke, made-to-measure curtains that enhance the character and individuality of your home. Whether you’re in a city apartment, a classic period townhouse, or a luxurious penthouse, our tailored curtain solutions are designed to elevate your space.",
+      "We focus on both form and function—ensuring a flawless fit for every window and a seamless integration with your interior style.",
+      "Our curtains are crafted to reflect your unique taste and space, offering a refined, made-for-you touch that transforms any room. Our bespoke, made-to-measure service is truly personalised, seamlessly integrating style, function, and craftsmanship."
     ],
     items: [
       {
         title: "Double Pinch Pleat Curtains",
         content: "These have two fabric folds gathered together to form each pleat, creating a more refined and contemporary look. They are suitable for both traditional and transitional homes and can work well with a variety of fabrics.",
-        image: ""
+        image: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748963482/doublepinchcurtain_uwkj2c.jpg"
       },
       {
         title: "Triple Pinch Pleats Curtains",
         content: "These feature three fabric folds per pleat, resulting in a fuller, more classic look that is often associated with luxury and formality. They are well-suited for traditional and formal settings and require more fabric than double pinch pleats.",
-        image: ""
+        image: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748963482/triplepleatcurtain_dg2zxd.jpg"
       },
       {
         title: "Single pleat Curtains",
         content: "Single Pleat curtain features a simple curtain heading style with a single fold or pleat along the top edge. This design offers a modern, streamlined look, making it a popular choice for both lined and unlined curtains, and especially suitable for patterned or heavy fabrics. Single pleat make them a good option for rooms with limited space. ",
-        image: ""
+        image: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748963436/singlepleatcurtain_ubsvk0.jpg"
       },
       {
         title: "Wave Curtains",
         content: "Wave curtains are a sleek and modern choice for window treatments, offering a flowing design that adds a touch of sophistication to any room. Wave curtains utilise a special flat tape sewn into the heading, adds a seamless layer.",
-        image: ""
+        image: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748963436/wavecurtain_deq1ks.jpg"
       },
       {
         title: "Eyelet Curtains",
@@ -40,7 +40,7 @@ const Projects = () => {
       {
         title: "Tab Top Curtains",
         content: "Tab top curtains feature fabric loops at the top of the curtain, typically made from the same material as the main panel, that are designed to slip over a curtain rod or pole. This style provides a casual, relaxed look and is relatively simple to install.",
-        image: ""
+        image: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748963437/Tabletopcurtain_wmcodr.jpg"
       },
       {
         title: "Cafe Curtains",
@@ -50,7 +50,7 @@ const Projects = () => {
       {
         title: "Inverted Box Pleat Curtains",
         content: "Inverted box pleat curtains feature pleats that are hidden on the back of the curtain heading, creating a smooth, clean, and tailored look on the front. This style provides a more contemporary aesthetic compared to traditional pinch pleat curtains, which have pleats visible on the front",
-        image: ""
+        image: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748963436/invertedboxpleatvurtain_wqhhtz.jpg"
       },
       {
         title: "Pencil Pleat Curtains",
@@ -90,7 +90,9 @@ const Projects = () => {
   const blindsData = {
     title: "SHUTTERS",
     intro: [
-      "Shutters are solid window coverings, typically made of wood, vinyl, or composite materials, that consist of a frame with adjustable slats or louvres. These slats can be tilted to control the amount of light and air entering a room, offering privacy and light control. Shutters can be installed internally or externally and are often used for decoration, security, or protection against the elements."],
+      "At Curtains & More, we offer a premium range of bespoke, made-to-measure blinds designed to suit every style and setting. From elegant Roman blinds to sleek roller, Venetian, allusion blinds and wooden options, our collection features a wide variety of styles, fabrics, colours, and finishes—perfect for both residential and commercial interiors.",
+      "Whether you need light control, privacy, or a striking design feature, our tailored blinds are crafted to fit your windows perfectly. We also offer advanced motorised blind systems, combining convenience with cutting-edge technology—ideal for modern homes and large-scale projects.",
+      "Explore our full collection of custom blinds and discover made-to-measure solutions that elevate every room."],
     items: [
       {
         title: "Plantation Shutters",
@@ -144,7 +146,7 @@ const Projects = () => {
       {
         title: "Venetian Blinds",
         content: "Venetian blinds feature horizontal slats that can be tilted to control light and privacy. Available in aluminum, wood, or faux wood, they offer a clean, contemporary look for any window.",
-        image: ""
+        image: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748962764/VenetianBlinds_pmwdnx.jpg"
       },
       {
         title: "Vertical Blinds",
@@ -154,12 +156,12 @@ const Projects = () => {
       {
         title: "Roller Blinds",
         content: "Roller blinds feature a simple design where fabric rolls around a tube at the top of the window. They provide a clean, streamlined look and are available in a wide range of fabrics from blackout to sheer.",
-        image: ""
+        image: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748963165/PrivacyRoller_fieqhi.jpg"
       },
       {
         title: "Roman Blinds",
         content: "Roman blinds fold up into horizontal pleats when raised. They combine the softness of curtains with the functionality of blinds, perfect for adding texture and warmth to any room.",
-        image: ""
+        image: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748963757/romanblind_hakynp.jpg"
       },
       {
         title: "Cellular (Honeycomb) Shades",
@@ -169,7 +171,7 @@ const Projects = () => {
       {
         title: "Pleated Blinds",
         content: "Pleated blinds feature crisp pleats that create a clean, tailored appearance. Lightweight and versatile, they're excellent for skylights and uniquely shaped windows.",
-        image: ""
+        image: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748963716/pleatedblind_bxuaxy.jpg"
       },
       {
         title: "Panel Track Blinds",
