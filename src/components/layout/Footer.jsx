@@ -1,7 +1,7 @@
 import React from 'react';
 import { Facebook, Instagram, Twitter } from 'lucide-react';
 import { FaInstagram, FaFacebook, FaLinkedin } from 'react-icons/fa';
-
+import { Link } from 'react-router-dom';
 
 export default function Footer() {
   return (
@@ -55,16 +55,22 @@ export default function Footer() {
               Curtains and More.
               <ul>
                 <li>
-                  <a href="/projects" className="text-gray-600 hover:text-gray-900 font-serif font-medium">Bespoke Curtains</a>
+                  <Link to="/projects#project-curtains" className="text-gray-600 hover:text-gray-900 font-serif font-medium">
+                    Bespoke Curtains
+                  </Link>
                 </li>
                 <li>
-                  <a href="/projects" className="text-gray-600 hover:text-gray-900 font-serif font-medium">Bespoke Shutters</a>
+                  <Link to="/projects#project-blinds" className="text-gray-600 hover:text-gray-900 font-serif font-medium">
+                    Bespoke Shutters
+                  </Link>
                 </li>
                 <li>
-                  <a href="/projects" className="text-gray-600 hover:text-gray-900 font-serif font-medium">Bespoke Blinds</a>
+                  <Link to="/projects#project-shutters" className="text-gray-600 hover:text-gray-900 font-serif font-medium">
+                    Bespoke Blinds
+                  </Link>
                 </li>
               </ul>
-              Made to measure for every space.
+              Made-to-Measure for every space
             </p>
           </div>
         </div>

@@ -1,8 +1,29 @@
 import React from 'react';
 import HeroSection from '../components/HeroSectionGeneral';
 import ProjectsSection from '../components/ProjectsSection';
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 
 const Projects = () => {
+
+  const location = useLocation();
+
+  useEffect(() => {
+    // wait until DOM is ready
+    const scrollToHash = () => {
+      if (location.hash) {
+        const el = document.querySelector(location.hash);
+        if (el) {
+          el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      }
+    };
+
+    // use timeout to ensure content is mounted
+    const timeout = setTimeout(scrollToHash, 100);
+
+    return () => clearTimeout(timeout);
+  }, [location]);
   // Data for curtains section
   const curtainsData = {
     title: "CURTAINS",

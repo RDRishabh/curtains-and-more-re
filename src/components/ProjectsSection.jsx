@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 import { ChevronDown, ChevronLeft, ChevronRight } from 'lucide-react';
 
-const ProjectsSection = ({ title = "Projects", intro = [], items = [], galleryImages = [] }) => {
+const ProjectsSection = ({ title = "Projects", intro = [], items = [], galleryImages = [] , id}) => {
   // State to track which dropdown is open
   const [openDropdown, setOpenDropdown] = useState(null);
   const carouselRef = useRef(null);
@@ -29,7 +29,7 @@ const ProjectsSection = ({ title = "Projects", intro = [], items = [], galleryIm
   };
 
   return (
-    <div className="max-w-6xl mx-auto px-4 pt-8 md:pt-12">
+    <div id={id} className="max-w-6xl mx-auto px-4 pt-8 md:pt-12">
       {/* Heading and Introduction */}
       <h1 className="text-3xl font-quincy mb-3 md:mb-5 text-gray-800">{title}</h1>
       
