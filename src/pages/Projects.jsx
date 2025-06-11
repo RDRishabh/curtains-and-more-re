@@ -25,7 +25,7 @@ const Projects = () => {
       {
         title: "Single pleat Curtains",
         content: "Single Pleat curtain features a simple curtain heading style with a single fold or pleat along the top edge. This design offers a modern, streamlined look, making it a popular choice for both lined and unlined curtains, and especially suitable for patterned or heavy fabrics. Single pleat make them a good option for rooms with limited space. ",
-        image: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748963436/singlepleatcurtain_ubsvk0.jpg"
+        image: "https://res.cloudinary.com/dxaycpvto/image/upload/v1749668498/singleplate_f9qm05.jpg"
       },
       {
         title: "Wave Curtains",
@@ -61,7 +61,7 @@ const Projects = () => {
     galleryImages: [
       { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748963482/doublepinchcurtain_uwkj2c.jpg", alt: "Double Pinch Pleat Curtains" },
       { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748963482/triplepleatcurtain_dg2zxd.jpg", alt: "Triple Pinch Pleats Curtains" },
-      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748963436/singlepleatcurtain_ubsvk0.jpg", alt: "Single Pleat Curtains" },
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1749668498/singleplate_f9qm05.jpg", alt: "Single Pleat Curtains" },
       { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748963436/wavecurtain_deq1ks.jpg", alt: "Wave Curtains" },
       { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1749665761/eyeletcurtains_cnxzrq.jpg", alt: "Eyelet Curtains" },
       { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748963437/Tabletopcurtain_wmcodr.jpg", alt: "Tab Top Curtains" },
@@ -240,9 +240,9 @@ const Projects = () => {
         text="Projects"
       />
       
-      <ProjectsSection {...curtainsData} />
-      <ProjectsSection {...blindsData} />
-      <ProjectsSection {...shuttersData} />
+      <ProjectsSection {...curtainsData} id="project-curtains"/>
+      <ProjectsSection {...blindsData} id="project-blinds"/>
+      <ProjectsSection {...shuttersData} id="project-shutters"/>
     </>
   );
 };

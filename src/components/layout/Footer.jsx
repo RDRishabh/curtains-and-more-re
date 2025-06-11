@@ -52,7 +52,19 @@ export default function Footer() {
           <div className="flex-1">
             <h3 className="font-medium text-gray-800 mb-4">ABOUT</h3>
             <p className="text-sm text-gray-600">
-              Curtains and More, Made to order Blinds, Curtains and Shutters via our website.
+              Curtains and More.
+              <ul>
+                <li>
+                  <a href="/projects" className="text-gray-600 hover:text-gray-900 font-serif font-medium">Bespoke Curtains</a>
+                </li>
+                <li>
+                  <a href="/projects" className="text-gray-600 hover:text-gray-900 font-serif font-medium">Bespoke Shutters</a>
+                </li>
+                <li>
+                  <a href="/projects" className="text-gray-600 hover:text-gray-900 font-serif font-medium">Bespoke Blinds</a>
+                </li>
+              </ul>
+              Made to measure for every space.
             </p>
           </div>
         </div>
