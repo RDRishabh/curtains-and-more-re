@@ -20,7 +20,7 @@ const Header = () => {
           {/* Left: Logo */}
           <div className="flex items-center flex-shrink-0">
             <Link to="/">
-              <img src="/png/logo.png" alt="Logo" className="h-12 w-auto" />
+              <img src="/png/logo.png" alt="Logo" className="h-14 w-auto" />
             </Link>
           </div>
 
@@ -40,7 +40,7 @@ const Header = () => {
             {/* Social Icons - hidden on mobile */}
             <div className="hidden lg:flex space-x-4 text-gray-600">
               <a href="https://www.instagram.com/curtainsandmoreuk" target="_blank" rel="noopener noreferrer"><FaInstagram size={20} /></a>
-              <a href="https://www.facebook.com/curtainsandmoreuk" target="_blank" rel="noopener noreferrer"><FaFacebook size={20} /></a>
+              {/* <a href="https://www.facebook.com/curtainsandmoreuk" target="_blank" rel="noopener noreferrer"><FaFacebook size={20} /></a> */}
               {/* <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer"><FaLinkedin size={20} /></a> */}
             </div>
 

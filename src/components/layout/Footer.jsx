@@ -23,28 +23,30 @@ export default function Footer() {
           <div className="flex-1 md:mr-12">
             <h3 className="font-medium text-gray-800 mb-4">CONTACT US</h3>
             <ul className="space-y-2 text-sm text-gray-600">
+              <li className="">Address: <span className="font-serif font-medium">Harrow, HA3 0LL, London</span></li>
               <li className="">Email: <a href="mailto:pooja@curtainsandmore.co.uk" className="hover:text-gray-900 font-serif font-medium">pooja@curtainsandmore.co.uk
               </a></li>
               <li>Phone: <a href="tel:+447590337823" className="hover:text-gray-900 font-serif font-medium">+44-7590337823</a></li>
               {/* <li className='font-semibold'>Hours: <span className="font-serif font-medium">Mon-Fri: 8am-5pm (CST)</span></li> */}
             </ul>
+            <div className="flex space-x-4 mt-2">
+              <a href="https://www.instagram.com/curtainsandmoreuk" className="text-gray-600 hover:text-gray-900">
+                <FaInstagram size={20} /> 
+              </a>
+              {/* <a href="https://www.facebook.com/curtainsandmoreuk" className="text-gray-600 hover:text-gray-900">
+                <FaFacebook size={20} />
+              </a> */}
+            </div>
           </div>
           
           {/* QUOTE Section */}
-          <div className="flex-1">
+          {/* <div className="flex-1">
             <h3 className="font-medium text-gray-800 mb-4">QUOTE</h3>
             <p className="text-sm text-gray-600 mb-4">
               Book your free measure and quote
             </p>
-            <div className="flex space-x-4">
-              <a href="https://www.instagram.com/curtainsandmoreuk" className="text-gray-600 hover:text-gray-900">
-                <FaInstagram size={20} /> 
-              </a>
-              <a href="https://www.facebook.com/curtainsandmoreuk" className="text-gray-600 hover:text-gray-900">
-                <FaFacebook size={20} />
-              </a>
-            </div>
-          </div>
+            
+          </div> */}
           
           {/* ABOUT Section */}
           <div className="flex-1">
@@ -57,7 +59,7 @@ export default function Footer() {
         
         {/* Copyright at bottom */}
         <div className="mt-12 text-center text-xs text-gray-500">
-          Copyright © Curtains and More 2025
+          Curtains and More @2025
         </div>
       </div>
     </footer>

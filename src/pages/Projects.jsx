@@ -35,7 +35,7 @@ const Projects = () => {
       {
         title: "Eyelet Curtains",
         content: "Eyelet curtains are undoubtedly a contemporary and modern choice, and are likely the style of curtains you'd come by most often. Known for their simplicity, the term 'eyelet' refers to the metal loops at the top of the fabric which allows them to easily slide onto curtain poles.",
-        image: ""
+        image: "https://res.cloudinary.com/dxaycpvto/image/upload/v1749665761/eyeletcurtains_cnxzrq.jpg"
       },
       {
         title: "Tab Top Curtains",
@@ -45,7 +45,7 @@ const Projects = () => {
       {
         title: "Cafe Curtains",
         content: "Cafe curtains are short, usually half-length curtains designed to cover the lower portion of a window, typically from the sill up to around the center of the window. They are commonly made from lighter materials like linen or voile, which allow natural light to filter through while still providing some privacy.",
-        image: ""
+        image: "https://res.cloudinary.com/dxaycpvto/image/upload/v1749665628/CafeCurtains_zqjuzg.jpg"
       },
       {
         title: "Inverted Box Pleat Curtains",
@@ -55,10 +55,19 @@ const Projects = () => {
       {
         title: "Pencil Pleat Curtains",
         content: "Pencil pleat curtains feature a heading with tightly gathered folds, resembling a row of pencils. These folds are created by pulling cords or tapes sewn into the top of the curtain fabric. This style is popular for its simple, classic look and is suitable for a variety of decor styles, from traditional to modern.",
-        image: ""
+        image: "https://res.cloudinary.com/dxaycpvto/image/upload/v1749665421/PencilPeatCurtains_nkyis2.jpg"
       }
     ],
     galleryImages: [
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748963482/doublepinchcurtain_uwkj2c.jpg", alt: "Double Pinch Pleat Curtains" },
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748963482/triplepleatcurtain_dg2zxd.jpg", alt: "Triple Pinch Pleats Curtains" },
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748963436/singlepleatcurtain_ubsvk0.jpg", alt: "Single Pleat Curtains" },
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748963436/wavecurtain_deq1ks.jpg", alt: "Wave Curtains" },
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1749665761/eyeletcurtains_cnxzrq.jpg", alt: "Eyelet Curtains" },
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748963437/Tabletopcurtain_wmcodr.jpg", alt: "Tab Top Curtains" },
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1749665628/CafeCurtains_zqjuzg.jpg", alt: "Cafe Curtains" },
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748963436/invertedboxpleatvurtain_wqhhtz.jpg", alt: "Inverted Box Pleat Curtains" },
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1749665421/PencilPeatCurtains_nkyis2.jpg", alt: "Pencil Pleat Curtains" },
       { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748617778/Image01_k1vh8m.png", alt: "Curtain example 1" },
       { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748617778/Image02_ea316k.png", alt: "Curtain example 2" },
       { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748617777/Image03_slxmkb.png", alt: "Curtain example 3" },
@@ -97,30 +106,35 @@ const Projects = () => {
       {
         title: "Plantation Shutters",
         content: "A popular style known for their wide, adjustable slats and classic look.",
-        image: ""
+        image: "https://res.cloudinary.com/dxaycpvto/image/upload/v1749665423/plantationshutters_c8v8xy.jpg"
       },
       {
         title: "Cafe Style Shutters",
         content: "Cover the lower half of the window, offering privacy while allowing light in.",
-        image: ""
+        image: "https://res.cloudinary.com/dxaycpvto/image/upload/v1749665410/cafestyleshutters_t83l0b.jpg"
       },
       {
         title: "Austin shutters",
         content: "Transform your home with the luxury and elegance of a real wood shutter. Our made to measure Austin shutters are skilfully hand-made by quality craftsmen.",
-        image: ""
+        image: "https://res.cloudinary.com/dxaycpvto/image/upload/v1749665628/austinshutters_lbcvib.jpg"
       },
       {
         title: "Dulwich Stutters",
         content: "Perfect for all windows in your home and ideal for your kitchen or bathroom. The Dulwich shutter is made from PVC that is water resistant and can be finished in any colour from our contemporary range. This product is also suitable for areas that see a high volume of traffic thanks to its durable make up. Dulwich Shutters are made from dense PVC that is mortise and tenon joined for ultimate stability and strength.",        
-        image: ""
+        image: "https://res.cloudinary.com/dxaycpvto/image/upload/v1749665940/dulwichshutters_gvmzr2.jpg"
       },
       {
         title: "Newport shutters",
         content: "We are delighted to introduce our Newport Shutter. This premium product is made with wood from the Poplar tree; a dense and extremely durable hardwood which, when painted, gives a beautifully luxurious finish. Newport is available in our full range of painted colours including the custom colour option.",
-        image: ""
+        image: "https://res.cloudinary.com/dxaycpvto/image/upload/v1749666098/Newportshutters_jkjy4t.jpg"
       }
     ],
     galleryImages: [
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1749665423/plantationshutters_c8v8xy.jpg", alt: "Plantation Shutters" },
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1749665410/cafestyleshutters_t83l0b.jpg", alt: "Cafe Style Shutters" },
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1749665628/austinshutters_lbcvib.jpg", alt: "Austin Shutters" },
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1749665940/dulwichshutters_gvmzr2.jpg", alt: "Dulwich Shutters" },
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1749666098/Newportshutters_jkjy4t.jpg", alt: "Newport Shutters" },
       { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748614904/s01_rrmlyr.webp", alt: "Shutters example 1" },
       { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748614904/s02_eooamh.jpg", alt: "Shutters example 2" },
       { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748614904/s03_ec8kgj.jpg", alt: "Shutters example 3" },
@@ -151,7 +165,7 @@ const Projects = () => {
       {
         title: "Vertical Blinds",
         content: "Vertical blinds consist of vertical fabric or vinyl slats that can be rotated for light control. They're ideal for covering large windows and sliding glass doors with a sleek, contemporary look.",
-        image: ""
+        image: "https://res.cloudinary.com/dxaycpvto/image/upload/v1749665423/verticalblinds_dfqq2g.jpg"
       },
       {
         title: "Roller Blinds",
@@ -166,7 +180,7 @@ const Projects = () => {
       {
         title: "Cellular (Honeycomb) Shades",
         content: "Honeycomb blinds feature a unique cellular structure that traps air, providing excellent insulation. They're energy efficient and available in single, double, or triple cell designs for various insulation needs.",
-        image: ""
+        image: "https://res.cloudinary.com/dxaycpvto/image/upload/v1749666089/CellularShades_cowpns.jpg"
       },
       {
         title: "Pleated Blinds",
@@ -176,7 +190,7 @@ const Projects = () => {
       {
         title: "Panel Track Blinds",
         content: "Panel track blinds consist of wide fabric panels that slide on a track system. They're perfect for large windows, sliding doors, or as room dividers, offering a modern, minimalist aesthetic.",
-        image: ""
+        image: "https://res.cloudinary.com/dxaycpvto/image/upload/v1749666265/panelblinds_syfkgm.jpg"
       },
       {
         title: "Skylight Blinds",
@@ -194,10 +208,18 @@ const Projects = () => {
           <p><strong>Privacy:</strong><br>
           Skylight blinds can provide a level of privacy, especially in attics or loft conversion.</p>
         `,
-        image: ""
+        image: "https://res.cloudinary.com/dxaycpvto/image/upload/v1749665423/SkylightBlind_vbpjsk.jpg"
       }
     ],
     galleryImages: [
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748962764/VenetianBlinds_pmwdnx.jpg", alt: "Venetian Blinds" },
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1749665423/verticalblinds_dfqq2g.jpg", alt: "Vertical Blinds" },
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748963165/PrivacyRoller_fieqhi.jpg", alt: "Roller Blinds" },
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748963757/romanblind_hakynp.jpg", alt: "Roman Blinds" },
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1749666089/CellularShades_cowpns.jpg", alt: "Cellular Shades" },
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748963716/pleatedblind_bxuaxy.jpg", alt: "Pleated Blinds" },
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1749666265/panelblinds_syfkgm.jpg", alt: "Panel Track Blinds" },
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1749665423/SkylightBlind_vbpjsk.jpg", alt: "Skylight Blinds" },
       { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748614898/b01_nbtvmt.jpg", alt: "Blinds example 1" },
       { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748614897/b02_fnh00n.jpg", alt: "Blinds example 2" },
       { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748614898/b03_qj3gvw.webp", alt: "Blinds example 3" },
