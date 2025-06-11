@@ -13,7 +13,8 @@ const GoogleReviewsSlider = () => {
     rating: 5,
     comment: "Excellent!! Excellent!!! Excellent!! I was looking for new curtains for my elderly mother, and specific style, I had called several other stores and businesses none of which were able to help me find what I was looking for. I found Curtains and More on Google, I spoke with Pooja and sent her the pictures of what I was looking for, she called me the next day (Saturday) with exactly the colours and designs with a few other similar options. Pooja gave me an appointment time, which I was unable to attend, as she was unable to give me an appointment within a few days, she offered to come over and measure the curtains on a Sunday evening, gave me a quote the next day, I placed the order and asked Pooja if I could get the curtains within 4 weeks as my mother was due to return, Pooja said she would do her best. I was so surprised to hear back from her within 3 weeks, Pooja and the installer where on time, hung the curtains within a couple of hours and cleaned up after.. I am very very happy with curtains in my mothers living room and bedroom, more importantly my mother just loves the colour, design and the way they have been hung, very easy to open and close, the other ones where very hard for her. I would recommend CurtainsandMore to anyone!! Great product! Good service with updates! Value for money. Very happy with my new curtains and would recommend to family and friends!! Thank you Pooja - Curtains and More!!!",
     // link:"https://g.co/kgs/p57hRv9",
-    link:"https://g.co/kgs/uJ63sM"
+    // link:"https://g.co/kgs/uJ63sM"
+    link: "https://www.google.co.uk/search?sca_esv=292513031035339b&hl=en-IN&biw=1440&bih=810&si=AMgyJEtREmoPL4P1I5IDCfuA8gybfVI2d5Uj7QMwYCZHKDZ-EzAynVyIDr7Plqst7_xEwdlMeMNJi5zYQLc75E3o2K287F_obYJCUcfTw2g0TiPLtJUSCIc7mRaGLf4I4_ZDmb2_K_QwziW8-ehHiWj32cAXHoSs7BavcsRTmBHEBqgQMY1XCDg%3D&q=Curtains+%26+More+%28by+appointment+only%29+Reviews&sa=X&ved=2ahUKEwjxsaOgheqNAxXOR2wGHfo0BCkQ0bkNegQIHhAE"
   },
   {
     name: "Kavi Shah",
@@ -21,7 +22,8 @@ const GoogleReviewsSlider = () => {
     rating: 5,
     comment: "Pooja and team helped install two sets of wave curtains in my apartment. The service was fantastic - Pooja responded quickly to queries, had great advice and lots of good fabric options. The curtains look fantastic and would highly recommend Curtains and More to all!",
     // link:"https://g.co/kgs/eCbXGnS",
-    link:"https://g.co/kgs/uJ63sM"
+    // link:"https://g.co/kgs/uJ63sM"
+    link: "https://www.google.co.uk/search?sca_esv=292513031035339b&hl=en-IN&biw=1440&bih=810&si=AMgyJEtREmoPL4P1I5IDCfuA8gybfVI2d5Uj7QMwYCZHKDZ-EzAynVyIDr7Plqst7_xEwdlMeMNJi5zYQLc75E3o2K287F_obYJCUcfTw2g0TiPLtJUSCIc7mRaGLf4I4_ZDmb2_K_QwziW8-ehHiWj32cAXHoSs7BavcsRTmBHEBqgQMY1XCDg%3D&q=Curtains+%26+More+%28by+appointment+only%29+Reviews&sa=X&ved=2ahUKEwjxsaOgheqNAxXOR2wGHfo0BCkQ0bkNegQIHhAE"
   },
   {
     name: "Jacqueline Clark",
@@ -29,15 +31,17 @@ const GoogleReviewsSlider = () => {
     rating: 5,
     comment: "Pooja did the most beautiful job on my flat. From our first meeting, she understood what we wanted and was able to advise perfectly. Extremely professional, we had all the confidence she would do an amazing job, and she did. We are delighted with the final result. Thank you Pooja.",
     // link:"https://g.co/kgs/7Mb8dS9",
-    link:"https://g.co/kgs/uJ63sM"
+    // link:"https://g.co/kgs/uJ63sM"
+    link: "https://www.google.co.uk/search?sca_esv=292513031035339b&hl=en-IN&biw=1440&bih=810&si=AMgyJEtREmoPL4P1I5IDCfuA8gybfVI2d5Uj7QMwYCZHKDZ-EzAynVyIDr7Plqst7_xEwdlMeMNJi5zYQLc75E3o2K287F_obYJCUcfTw2g0TiPLtJUSCIc7mRaGLf4I4_ZDmb2_K_QwziW8-ehHiWj32cAXHoSs7BavcsRTmBHEBqgQMY1XCDg%3D&q=Curtains+%26+More+%28by+appointment+only%29+Reviews&sa=X&ved=2ahUKEwjxsaOgheqNAxXOR2wGHfo0BCkQ0bkNegQIHhAE"
   },
   {
     name: "Mehdiya Suleimani",
     date: "3 months ago",
     rating: 5,
-    comment: "Pooja did the most beautiful job on my flat. From our first meeting, she understood what we wanted and was able to advise perfectly. Extremely professional, we had all the confidence she would do an amazing job, and she did. We are delighted with the final result. Thank you Pooja.",
+    comment: "Pooja did a great job with our home! Had an extensive range of designs to choose from. The curtains and nets we chose turned out to be just the right ones and blend gorgeously with the rest of the house. Her service was brilliant from start to finish! Thank you for giving us a personalised experience! Worth every penny x",
     // link:"https://g.co/kgs/ckSyzxo",
-    link:"https://g.co/kgs/uJ63sM"
+    // link:"https://g.co/kgs/uJ63sM"
+    link: "https://www.google.co.uk/search?sca_esv=292513031035339b&hl=en-IN&biw=1440&bih=810&si=AMgyJEtREmoPL4P1I5IDCfuA8gybfVI2d5Uj7QMwYCZHKDZ-EzAynVyIDr7Plqst7_xEwdlMeMNJi5zYQLc75E3o2K287F_obYJCUcfTw2g0TiPLtJUSCIc7mRaGLf4I4_ZDmb2_K_QwziW8-ehHiWj32cAXHoSs7BavcsRTmBHEBqgQMY1XCDg%3D&q=Curtains+%26+More+%28by+appointment+only%29+Reviews&sa=X&ved=2ahUKEwjxsaOgheqNAxXOR2wGHfo0BCkQ0bkNegQIHhAE"
   },
   {
     name: "Pankaj Bansal",
@@ -45,7 +49,8 @@ const GoogleReviewsSlider = () => {
     rating: 5,
     comment: "We got the blinds and curtains designed and installed by Pooja and we can recommend her without any hesitation. Pooja had an eye for detail and she was absolutely professional in her approach and work. She is 100% trustworthy and gave us some very valuable recommendations. We needed the blinds fitted before our holiday that left very little time and she made that possible by going out of her way and getting an electrician the night before and getting everything installed. We loved working with her and if we ever need more blinds or curtains, we will come straight to her. Thank you Pooja.",
     // link:"https://g.co/kgs/fk1H1tn",
-    link:"https://g.co/kgs/uJ63sM"
+    // link:"https://g.co/kgs/uJ63sM"
+    link: "https://www.google.co.uk/search?sca_esv=292513031035339b&hl=en-IN&biw=1440&bih=810&si=AMgyJEtREmoPL4P1I5IDCfuA8gybfVI2d5Uj7QMwYCZHKDZ-EzAynVyIDr7Plqst7_xEwdlMeMNJi5zYQLc75E3o2K287F_obYJCUcfTw2g0TiPLtJUSCIc7mRaGLf4I4_ZDmb2_K_QwziW8-ehHiWj32cAXHoSs7BavcsRTmBHEBqgQMY1XCDg%3D&q=Curtains+%26+More+%28by+appointment+only%29+Reviews&sa=X&ved=2ahUKEwjxsaOgheqNAxXOR2wGHfo0BCkQ0bkNegQIHhAE"
   },
   {
     name: "Kish Bhudia",
@@ -53,7 +58,8 @@ const GoogleReviewsSlider = () => {
     rating: 5,
     comment: "Pooja provided excellent & prompt service for roller blinds at our architectural studio. She has a great range of products and the fitting service was also very professionally executed.",
     // link:"https://g.co/kgs/JadGE3Y",
-    link:"https://g.co/kgs/uJ63sM"
+    // link:"https://g.co/kgs/uJ63sM"
+    link: "https://www.google.co.uk/search?sca_esv=292513031035339b&hl=en-IN&biw=1440&bih=810&si=AMgyJEtREmoPL4P1I5IDCfuA8gybfVI2d5Uj7QMwYCZHKDZ-EzAynVyIDr7Plqst7_xEwdlMeMNJi5zYQLc75E3o2K287F_obYJCUcfTw2g0TiPLtJUSCIc7mRaGLf4I4_ZDmb2_K_QwziW8-ehHiWj32cAXHoSs7BavcsRTmBHEBqgQMY1XCDg%3D&q=Curtains+%26+More+%28by+appointment+only%29+Reviews&sa=X&ved=2ahUKEwjxsaOgheqNAxXOR2wGHfo0BCkQ0bkNegQIHhAE"
   },
   {
     name: "Rosie Rose",
@@ -61,7 +67,8 @@ const GoogleReviewsSlider = () => {
     rating: 5,
     comment: "We had electric roller blinds with UV protection made for our large shop window and electric Roman blinds for the living room sash windows. Pooja was really helpful with helping us choose the right materials. The choice of fabric is extensive with a huge array of materials/patterns. The blinds are well made and were fitted within 6 weeks. I would highly recommend Curtains & More for the home/business for bespoke blinds.",
     // link:"https://g.co/kgs/J3XSuyN",
-    link:"https://g.co/kgs/uJ63sM"
+    // link:"https://g.co/kgs/uJ63sM"
+    link: "https://www.google.co.uk/search?sca_esv=292513031035339b&hl=en-IN&biw=1440&bih=810&si=AMgyJEtREmoPL4P1I5IDCfuA8gybfVI2d5Uj7QMwYCZHKDZ-EzAynVyIDr7Plqst7_xEwdlMeMNJi5zYQLc75E3o2K287F_obYJCUcfTw2g0TiPLtJUSCIc7mRaGLf4I4_ZDmb2_K_QwziW8-ehHiWj32cAXHoSs7BavcsRTmBHEBqgQMY1XCDg%3D&q=Curtains+%26+More+%28by+appointment+only%29+Reviews&sa=X&ved=2ahUKEwjxsaOgheqNAxXOR2wGHfo0BCkQ0bkNegQIHhAE"
   },
   {
     name: "Gopi Mistry",
@@ -69,7 +76,8 @@ const GoogleReviewsSlider = () => {
     rating: 5,
     comment: "We had Pooja come and fit curtains for my front room and for my mum's home. Amazing professional service from helping us choose the style and fabric to the final fitting. Pooja communicated well and executed as planned. We are both very happy with our curtains.",
     // link:"https://g.co/kgs/jhg8WfE",
-    link:"https://g.co/kgs/uJ63sM"
+    // link:"https://g.co/kgs/uJ63sM"
+    link: "https://www.google.co.uk/search?sca_esv=292513031035339b&hl=en-IN&biw=1440&bih=810&si=AMgyJEtREmoPL4P1I5IDCfuA8gybfVI2d5Uj7QMwYCZHKDZ-EzAynVyIDr7Plqst7_xEwdlMeMNJi5zYQLc75E3o2K287F_obYJCUcfTw2g0TiPLtJUSCIc7mRaGLf4I4_ZDmb2_K_QwziW8-ehHiWj32cAXHoSs7BavcsRTmBHEBqgQMY1XCDg%3D&q=Curtains+%26+More+%28by+appointment+only%29+Reviews&sa=X&ved=2ahUKEwjxsaOgheqNAxXOR2wGHfo0BCkQ0bkNegQIHhAE"
   },
   {
     name: "Design Labs London",
@@ -77,7 +85,8 @@ const GoogleReviewsSlider = () => {
     rating: 5,
     comment: "We were looking to tie up with a curtain maker for our Interior Design Projects as our usual curtain maker wouldn’t cover the area. After some quick google search we landed on Curtains & More. Pooja instantly understood what our requirements were and gave us a quote based on our fabric choices. Throughout the process we were kept informed and most importantly our installation deadlines were met, which was quite crucial. We found Pooja and her fitting team very friendly and easy to work with. Our clients are thrilled with the end result and so are we! We would highly recommend Curtains & More and will definitely be working with them in future for our Interior Design Projects.",
     // link:"https://g.co/kgs/iqGLxjG",
-    link:"https://g.co/kgs/uJ63sM"
+    // link:"https://g.co/kgs/uJ63sM"
+    link: "https://www.google.co.uk/search?sca_esv=292513031035339b&hl=en-IN&biw=1440&bih=810&si=AMgyJEtREmoPL4P1I5IDCfuA8gybfVI2d5Uj7QMwYCZHKDZ-EzAynVyIDr7Plqst7_xEwdlMeMNJi5zYQLc75E3o2K287F_obYJCUcfTw2g0TiPLtJUSCIc7mRaGLf4I4_ZDmb2_K_QwziW8-ehHiWj32cAXHoSs7BavcsRTmBHEBqgQMY1XCDg%3D&q=Curtains+%26+More+%28by+appointment+only%29+Reviews&sa=X&ved=2ahUKEwjxsaOgheqNAxXOR2wGHfo0BCkQ0bkNegQIHhAE"
   }
 ];
 
