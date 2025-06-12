@@ -30,9 +30,9 @@ export default function Footer() {
               {/* <li className='font-semibold'>Hours: <span className="font-serif font-medium">Mon-Fri: 8am-5pm (CST)</span></li> */}
             </ul>
             <div className="flex space-x-4 mt-2">
-              <a href="https://www.instagram.com/curtainsandmoreuk" className="text-gray-600 hover:text-gray-900">
+              {/* <a href="https://www.instagram.com/curtainsandmoreuk" className="text-gray-600 hover:text-gray-900">
                 <FaInstagram size={20} /> 
-              </a>
+              </a> */}
               {/* <a href="https://www.facebook.com/curtainsandmoreuk" className="text-gray-600 hover:text-gray-900">
                 <FaFacebook size={20} />
               </a> */}
@@ -52,7 +52,7 @@ export default function Footer() {
           <div className="flex-1">
             <h3 className="font-medium text-gray-800 mb-4">ABOUT</h3>
             <p className="text-sm text-gray-600">
-              Curtains and More.
+              We professionally install your custom-made curtains, blinds or shutters.
               <ul>
                 <li>
                   <Link to="/projects#project-curtains" className="text-gray-600 hover:text-gray-900 font-serif font-medium">
@@ -70,7 +70,6 @@ export default function Footer() {
                   </Link>
                 </li>
               </ul>
-              Made-to-Measure for every space
             </p>
           </div>
         </div>

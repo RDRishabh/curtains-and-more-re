@@ -25,7 +25,7 @@ const Header = () => {
           </div>
 
           {/* Center: Navigation - hidden on small screens */}
-          <nav className="hidden lg:flex flex-1 justify-center">
+          <nav className="hidden lg:flex flex-1 justify-center pr-24">
             <ul className="flex space-x-6 md:space-x-8">
               <li><Link to="/" className="text-gray-600 hover:text-gray-900 uppercase text-md tracking-wider font-quincy">HOME</Link></li>
               <li><Link to="/projects" className="text-gray-600 hover:text-gray-900 uppercase text-md tracking-wider font-quincy">PROJECTS</Link></li>
@@ -38,8 +38,8 @@ const Header = () => {
           {/* Right: Social Icons + Hamburger */}
           <div className="flex items-center space-x-4">
             {/* Social Icons - hidden on mobile */}
-            <div className="hidden lg:flex space-x-4 text-gray-600">
-              <a href="https://www.instagram.com/curtainsandmoreuk" target="_blank" rel="noopener noreferrer"><FaInstagram size={20} /></a>
+            <div className="hidden lg:flex space-x-4 text-gray-600 opacity-0 cursor-no-drop">
+              {/* <a href="https://www.instagram.com/curtainsandmoreuk" target="_blank" rel="noopener noreferrer"><FaInstagram size={20} /></a> */}
               {/* <a href="https://www.facebook.com/curtainsandmoreuk" target="_blank" rel="noopener noreferrer"><FaFacebook size={20} /></a> */}
               {/* <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer"><FaLinkedin size={20} /></a> */}
             </div>

@@ -4,15 +4,15 @@ import { Navigation } from 'lucide-react';
 
 const containerStyle = {
   width: '100%',
-  height: '500px',
+  height: '640px',
 };
 
 const mapCenter = { lat: 51.5549, lng: -0.2800 };
 
 const primaryLocations = [
-  { name: "Watford", lat: 51.6565, lng: -0.3903, link: "https://maps.google.com?q=51.6565,-0.3903" },
-  { name: "Enfield", lat: 51.6515, lng: -0.0800, link: "https://maps.google.com?q=51.6515,-0.0800" },
-  { name: "Luton", lat: 51.8787, lng: -0.4200, link: "https://maps.google.com?q=51.8787,-0.4200" },
+  // { name: "Watford", lat: 51.6565, lng: -0.3903, link: "https://maps.google.com?q=51.6565,-0.3903" },
+  // { name: "Enfield", lat: 51.6515, lng: -0.0800, link: "https://maps.google.com?q=51.6515,-0.0800" },
+  // { name: "Luton", lat: 51.8787, lng: -0.4200, link: "https://maps.google.com?q=51.8787,-0.4200" },
 ];
 
 const serviceAreas = [
@@ -25,24 +25,27 @@ const serviceAreas = [
   ["Ickenham", "Finchley"],
   ["Hatchend", "Mill Hill"],
   ["Stanmore", "Central London"],
+  ["Hayes", "Southall"],
+  ["Slough", "Hounslow"],
+  ["Greenford", "Barnet"],
 ];
 
 // Convert all service areas to marker entries (approximate lat/lngs may be needed if not exact)
 const areaMarkers = [
-  { name: "Harrow", lat: 51.5806, lng: -0.3417 },
-  { name: "Golders Green", lat: 51.5723, lng: -0.1945 },
-  { name: "Pinner", lat: 51.5933, lng: -0.3891 },
-  { name: "Hendon", lat: 51.5836, lng: -0.2253 },
-  { name: "Northwood", lat: 51.6103, lng: -0.4239 },
-  { name: "Wembley", lat: 51.5588, lng: -0.2817 },
-  { name: "Kenton", lat: 51.5829, lng: -0.3178 },
-  { name: "Uxbridge", lat: 51.5467, lng: -0.4780 },
-  { name: "Ickenham", lat: 51.5691, lng: -0.4427 },
-  { name: "Finchley", lat: 51.5981, lng: -0.1870 },
-  { name: "Hatchend", lat: 51.6095, lng: -0.3625 },
-  { name: "Mill Hill", lat: 51.6135, lng: -0.2399 },
-  { name: "Stanmore", lat: 51.6195, lng: -0.3030 },
-  { name: "Central London", lat: 51.5074, lng: -0.1278 },
+  // { name: "Harrow", lat: 51.5806, lng: -0.3417 },
+  // { name: "Golders Green", lat: 51.5723, lng: -0.1945 },
+  // { name: "Pinner", lat: 51.5933, lng: -0.3891 },
+  // { name: "Hendon", lat: 51.5836, lng: -0.2253 },
+  // { name: "Northwood", lat: 51.6103, lng: -0.4239 },
+  // { name: "Wembley", lat: 51.5588, lng: -0.2817 },
+  // { name: "Kenton", lat: 51.5829, lng: -0.3178 },
+  // { name: "Uxbridge", lat: 51.5467, lng: -0.4780 },
+  // { name: "Ickenham", lat: 51.5691, lng: -0.4427 },
+  // { name: "Finchley", lat: 51.5981, lng: -0.1870 },
+  // { name: "Hatchend", lat: 51.6095, lng: -0.3625 },
+  // { name: "Mill Hill", lat: 51.6135, lng: -0.2399 },
+  // { name: "Stanmore", lat: 51.6195, lng: -0.3030 },
+  // { name: "Central London", lat: 51.5074, lng: -0.1278 },
 ];
 
 const WorkLocations = () => {

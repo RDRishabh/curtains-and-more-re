@@ -36,12 +36,12 @@ const Projects = () => {
       {
         title: "Double Pinch Pleat Curtains",
         content: "These have two fabric folds gathered together to form each pleat, creating a more refined and contemporary look. They are suitable for both traditional and transitional homes and can work well with a variety of fabrics.",
-        image: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748963482/doublepinchcurtain_uwkj2c.jpg"
+        image: "https://res.cloudinary.com/dxaycpvto/image/upload/v1749750393/doublepinch_vfpa7h.jpg"
       },
       {
         title: "Triple Pinch Pleats Curtains",
         content: "These feature three fabric folds per pleat, resulting in a fuller, more classic look that is often associated with luxury and formality. They are well-suited for traditional and formal settings and require more fabric than double pinch pleats.",
-        image: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748963482/triplepleatcurtain_dg2zxd.jpg"
+        image: "https://res.cloudinary.com/dxaycpvto/image/upload/v1749750393/triplepinch_ej21ew.jpg"
       },
       {
         title: "Single pleat Curtains",
@@ -56,7 +56,7 @@ const Projects = () => {
       {
         title: "Eyelet Curtains",
         content: "Eyelet curtains are undoubtedly a contemporary and modern choice, and are likely the style of curtains you'd come by most often. Known for their simplicity, the term 'eyelet' refers to the metal loops at the top of the fabric which allows them to easily slide onto curtain poles.",
-        image: "https://res.cloudinary.com/dxaycpvto/image/upload/v1749665761/eyeletcurtains_cnxzrq.jpg"
+        image: "https://res.cloudinary.com/dxaycpvto/image/upload/v1749752470/eyeletcurtains1_pqub01.jpg"
       },
       {
         title: "Tab Top Curtains",
@@ -76,19 +76,19 @@ const Projects = () => {
       {
         title: "Pencil Pleat Curtains",
         content: "Pencil pleat curtains feature a heading with tightly gathered folds, resembling a row of pencils. These folds are created by pulling cords or tapes sewn into the top of the curtain fabric. This style is popular for its simple, classic look and is suitable for a variety of decor styles, from traditional to modern.",
-        image: "https://res.cloudinary.com/dxaycpvto/image/upload/v1749665421/PencilPeatCurtains_nkyis2.jpg"
+        image: "https://res.cloudinary.com/dxaycpvto/image/upload/v1749752469/pencilpleat1_zyv4nk.jpg"
       }
     ],
     galleryImages: [
-      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748963482/doublepinchcurtain_uwkj2c.jpg", alt: "Double Pinch Pleat Curtains" },
-      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748963482/triplepleatcurtain_dg2zxd.jpg", alt: "Triple Pinch Pleats Curtains" },
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1749750393/doublepinch_vfpa7h.jpg", alt: "Double Pinch Pleat Curtains" },
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1749750393/triplepinch_ej21ew.jpg", alt: "Triple Pinch Pleats Curtains" },
       { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1749668498/singleplate_f9qm05.jpg", alt: "Single Pleat Curtains" },
       { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748963436/wavecurtain_deq1ks.jpg", alt: "Wave Curtains" },
-      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1749665761/eyeletcurtains_cnxzrq.jpg", alt: "Eyelet Curtains" },
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1749752470/eyeletcurtains1_pqub01.jpg", alt: "Eyelet Curtains" },
       { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748963437/Tabletopcurtain_wmcodr.jpg", alt: "Tab Top Curtains" },
       { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1749665628/CafeCurtains_zqjuzg.jpg", alt: "Cafe Curtains" },
       { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748963436/invertedboxpleatvurtain_wqhhtz.jpg", alt: "Inverted Box Pleat Curtains" },
-      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1749665421/PencilPeatCurtains_nkyis2.jpg", alt: "Pencil Pleat Curtains" },
+      { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1749752469/pencilpleat1_zyv4nk.jpg", alt: "Pencil Pleat Curtains" },
       { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748617778/Image01_k1vh8m.png", alt: "Curtain example 1" },
       { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748617778/Image02_ea316k.png", alt: "Curtain example 2" },
       { src: "https://res.cloudinary.com/dxaycpvto/image/upload/v1748617777/Image03_slxmkb.png", alt: "Curtain example 3" },
